@@ -2,6 +2,19 @@
   "version": 1,
   "mode": "replace",
   "items": {
+    "12b41563-4c42-4582-b067-86d8f8661756": {
+      "bend": 0,
+      "color": "#8b8f8c",
+      "endHead": "triangle",
+      "from": "809c4b4f-e919-40b4-9bfd-451aa7ac959a",
+      "headSize": 14,
+      "kind": "connector",
+      "permission": "default",
+      "startHead": "none",
+      "strokeWidth": 1.5,
+      "to": "c0723d8e-77e2-4aee-a9f0-69b4204be2e0",
+      "visualStyle": "standard"
+    },
     "210bc596-9c3c-44ce-a67c-52d8ce0b5019": {
       "height": 643.364535,
       "kind": "text",
@@ -51,6 +64,19 @@
       "x": -704.048253,
       "y": 1763.192272
     },
+    "33875bfe-e5c7-4320-ba5d-3232c549dc12": {
+      "bend": 0,
+      "color": "#8b8f8c",
+      "endHead": "triangle",
+      "from": "c0723d8e-77e2-4aee-a9f0-69b4204be2e0",
+      "headSize": 14,
+      "kind": "connector",
+      "permission": "default",
+      "startHead": "none",
+      "strokeWidth": 1.5,
+      "to": "3dd84ec3-a693-41a1-95d9-8c4d6c6161a9",
+      "visualStyle": "standard"
+    },
     "3662bd77-124a-4801-ab81-b93eacae7b0f": {
       "height": 400,
       "kind": "shape",
@@ -61,8 +87,59 @@
       "runtimeRole": "terminal",
       "shapeType": "rectangle",
       "width": 672,
-      "x": 324.611879,
-      "y": -139.301935
+      "x": 1137.651387,
+      "y": -435.843444
+    },
+    "3a28f7f5-5c19-460a-8bcc-9c46ba419102": {
+      "height": 240,
+      "kind": "shape",
+      "permission": "default",
+      "runtimeResults": [
+        {
+          "codeId": "67dcebd3-8441-414b-9db9-52696836c985",
+          "createdAt": 1793669677374,
+          "exitCode": 0,
+          "output": "test2test1\n",
+          "runId": "1793669674476-809c4b4f-e919-40b4-9bfd-451aa7ac959a",
+          "timedOut": false,
+          "truncated": false
+        }
+      ],
+      "runtimeRole": "output",
+      "shapeType": "rectangle",
+      "width": 384,
+      "x": 1984.585546,
+      "y": 340.909662
+    },
+    "3dd84ec3-a693-41a1-95d9-8c4d6c6161a9": {
+      "height": 240,
+      "kind": "shape",
+      "permission": "default",
+      "runtimeResults": [
+        {
+          "codeId": "c0723d8e-77e2-4aee-a9f0-69b4204be2e0",
+          "createdAt": 1793669676722,
+          "exitCode": 0,
+          "output": "test2\n",
+          "runId": "1793669674476-809c4b4f-e919-40b4-9bfd-451aa7ac959a",
+          "timedOut": false,
+          "truncated": false
+        },
+        {
+          "codeId": "af3cbb3e-2699-4f9f-a022-4621ef778ee4",
+          "createdAt": 1793669677046,
+          "exitCode": 0,
+          "output": "test1\n",
+          "runId": "1793669674476-809c4b4f-e919-40b4-9bfd-451aa7ac959a",
+          "timedOut": false,
+          "truncated": false
+        }
+      ],
+      "runtimeRole": "output",
+      "shapeType": "rectangle",
+      "width": 384,
+      "x": 804.543455,
+      "y": 351.768886
     },
     "599c8691-0a15-4a2a-9408-c11f0cdcfb11": {
       "bend": 0,
@@ -203,6 +280,54 @@
       "width": 1165.370273,
       "x": 1152.155472,
       "y": 4554.783052
+    },
+    "617dc8fb-12da-410b-893e-11947e38d2c3": {
+      "bend": 0,
+      "color": "#8b8f8c",
+      "endHead": "triangle",
+      "from": "809c4b4f-e919-40b4-9bfd-451aa7ac959a",
+      "headSize": 14,
+      "kind": "connector",
+      "permission": "default",
+      "startHead": "none",
+      "strokeWidth": 1.5,
+      "to": "af3cbb3e-2699-4f9f-a022-4621ef778ee4",
+      "visualStyle": "standard"
+    },
+    "67dcebd3-8441-414b-9db9-52696836c985": {
+      "cornerStyle": "rounded",
+      "height": 238.964492,
+      "kind": "text",
+      "language": "python",
+      "permission": "default",
+      "renderMode": "code",
+      "text": "a = input() + input()\n\nprint(a)",
+      "width": 352,
+      "x": 1380.41297,
+      "y": 337.20575
+    },
+    "7df79d2a-448c-4967-911d-b7af68a44de2": {
+      "bend": 0,
+      "color": "#8b8f8c",
+      "endHead": "triangle",
+      "from": "3dd84ec3-a693-41a1-95d9-8c4d6c6161a9",
+      "headSize": 14,
+      "kind": "connector",
+      "permission": "default",
+      "startHead": "none",
+      "strokeWidth": 1.5,
+      "to": "67dcebd3-8441-414b-9db9-52696836c985",
+      "visualStyle": "standard"
+    },
+    "809c4b4f-e919-40b4-9bfd-451aa7ac959a": {
+      "height": 160,
+      "kind": "shape",
+      "permission": "default",
+      "runtimeRole": "executor",
+      "shapeType": "rectangle",
+      "width": 384,
+      "x": -352.55506,
+      "y": 252.752584
     },
     "8bde172c-56bf-4358-943d-5d79023614d9": {
       "columns": [
@@ -933,6 +1058,42 @@
       "x": 2589.726372,
       "y": 2212.899714
     },
+    "9c918d10-ba5e-4e7e-afcd-6b57bffeb6bd": {
+      "bend": 0,
+      "color": "#8b8f8c",
+      "endHead": "triangle",
+      "from": "67dcebd3-8441-414b-9db9-52696836c985",
+      "headSize": 14,
+      "kind": "connector",
+      "permission": "default",
+      "startHead": "none",
+      "strokeWidth": 1.5,
+      "to": "3a28f7f5-5c19-460a-8bcc-9c46ba419102",
+      "visualStyle": "standard"
+    },
+    "aa99e04e-e105-440a-8168-059ec77295ab": {
+      "bend": 0,
+      "color": "#8b8f8c",
+      "endHead": "triangle",
+      "from": "af3cbb3e-2699-4f9f-a022-4621ef778ee4",
+      "headSize": 14,
+      "kind": "connector",
+      "permission": "default",
+      "startHead": "none",
+      "strokeWidth": 1.5,
+      "to": "3dd84ec3-a693-41a1-95d9-8c4d6c6161a9",
+      "visualStyle": "standard"
+    },
+    "af3cbb3e-2699-4f9f-a022-4621ef778ee4": {
+      "kind": "text",
+      "language": "python",
+      "permission": "default",
+      "renderMode": "code",
+      "text": "print(\"test1\")",
+      "width": 352,
+      "x": 248.207082,
+      "y": 134.740502
+    },
     "bd268de4-005c-4d59-830e-a7a1a58d3b11": {
       "columns": [
         "요구사항_ID",
@@ -1134,8 +1295,8 @@
       },
       "shapeType": "rectangle",
       "width": 768,
-      "x": 314.90489,
-      "y": 520.362359
+      "x": 385.213146,
+      "y": 1049.03046
     },
     "be4302d2-8479-4f99-a1a5-f6e28426e5d2": {
       "bend": 0,
@@ -1151,6 +1312,16 @@
       "strokeWidth": 1.5,
       "to": "3006adf7-f9fe-46d3-bb12-4d2347ff31e4",
       "visualStyle": "standard"
+    },
+    "c0723d8e-77e2-4aee-a9f0-69b4204be2e0": {
+      "kind": "text",
+      "language": "python",
+      "permission": "default",
+      "renderMode": "code",
+      "text": "print(\"test2\")",
+      "width": 352,
+      "x": 200.296602,
+      "y": 429.774927
     },
     "c629446f-a5e3-4063-b96a-e9fa83b5ff0c": {
       "height": 262.40031,
