@@ -4,6 +4,7 @@
   "objects": {
     "connector": "canvases/2132.canvas.parts/objects/connector.json",
     "shape": "canvases/2132.canvas.parts/objects/shape.json",
+    "stroke": "canvases/2132.canvas.parts/objects/stroke.json",
     "table": "canvases/2132.canvas.parts/objects/table.json",
     "text": "canvases/2132.canvas.parts/objects/text.json"
   },
