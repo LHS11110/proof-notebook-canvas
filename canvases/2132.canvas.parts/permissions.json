@@ -1,5 +1,9 @@
 {
   "permissions": {
+    "0fb112ad-0728-4b20-a65b-c965cfefb924": [
+      "admin-group",
+      "default"
+    ],
     "12b41563-4c42-4582-b067-86d8f8661756": "default",
     "210bc596-9c3c-44ce-a67c-52d8ce0b5019": [
       "admin-group",
@@ -25,6 +29,10 @@
     ],
     "617dc8fb-12da-410b-893e-11947e38d2c3": "default",
     "67dcebd3-8441-414b-9db9-52696836c985": "default",
+    "7aa21514-af33-4edd-bbc1-88a42f2efa23": [
+      "admin-group",
+      "default"
+    ],
     "7df79d2a-448c-4967-911d-b7af68a44de2": "default",
     "809c4b4f-e919-40b4-9bfd-451aa7ac959a": "default",
     "8bde172c-56bf-4358-943d-5d79023614d9": [
