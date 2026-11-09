@@ -1,0 +1,75 @@
+{
+  "items": {
+    "210bc596-9c3c-44ce-a67c-52d8ce0b5019": {
+      "height": 643.364535,
+      "kind": "text",
+      "language": "cpp",
+      "renderMode": "code",
+      "runtimeState": {
+        "built": false,
+        "completed": true,
+        "failed": false,
+        "language": "cpp",
+        "phase": "run",
+        "runId": "1793889139507-210bc596-9c3c-44ce-a67c-52d8ce0b5019",
+        "running": false,
+        "source": "#include <iostream>\nusing namespace std;\n\nauto main() -> int {\n  int a = 10;\n  cout << \"Hello, world!\\n\" << a << '\\n';\n  cout << \"u r stupid\\n\";\n  return 0;\n}\n\n",
+        "status": "success",
+        "updatedAt": 1793889140092
+      },
+      "text": "#include <iostream>\nusing namespace std;\n\nauto main() -> int {\n  int a = 10;\n  cout << \"Hello, world!\\n\" << a << '\\n';\n  cout << \"u r stupid\\n\";\n  return 0;\n}\n\n",
+      "width": 352,
+      "x": -693.748284,
+      "y": 58.410198
+    },
+    "67dcebd3-8441-414b-9db9-52696836c985": {
+      "cornerStyle": "rounded",
+      "height": 238.964492,
+      "kind": "text",
+      "language": "python",
+      "renderMode": "code",
+      "text": "a = input() + input()\n\nprint(a)",
+      "width": 352,
+      "x": 1380.41297,
+      "y": 337.20575
+    },
+    "af3cbb3e-2699-4f9f-a022-4621ef778ee4": {
+      "kind": "text",
+      "language": "python",
+      "renderMode": "code",
+      "text": "print(\"test1\")",
+      "width": 352,
+      "x": 248.207082,
+      "y": 134.740502
+    },
+    "c0723d8e-77e2-4aee-a9f0-69b4204be2e0": {
+      "kind": "text",
+      "language": "python",
+      "renderMode": "code",
+      "text": "print(\"test2\")",
+      "width": 352,
+      "x": 200.296602,
+      "y": 429.774927
+    },
+    "c629446f-a5e3-4063-b96a-e9fa83b5ff0c": {
+      "height": 262.40031,
+      "kind": "text",
+      "language": "python",
+      "renderMode": "code",
+      "runtimeState": {
+        "completed": true,
+        "failed": false,
+        "language": "python",
+        "phase": "run",
+        "running": false,
+        "source": "c: str = input()\na: int = int(input())\nb: str = input()\n\nprint(a, b, c)",
+        "status": "success",
+        "updatedAt": 1793889140090
+      },
+      "text": "c: str = input()\na: int = int(input())\nb: str = input()\n\nprint(a, b, c)",
+      "width": 352,
+      "x": -698.415098,
+      "y": 1364.675146
+    }
+  }
+}
