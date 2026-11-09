@@ -1,0 +1,66 @@
+{
+  "permissions": {
+    "12b41563-4c42-4582-b067-86d8f8661756": "default",
+    "210bc596-9c3c-44ce-a67c-52d8ce0b5019": [
+      "admin-group",
+      "default"
+    ],
+    "3006adf7-f9fe-46d3-bb12-4d2347ff31e4": [
+      "default"
+    ],
+    "33875bfe-e5c7-4320-ba5d-3232c549dc12": "default",
+    "3662bd77-124a-4801-ab81-b93eacae7b0f": [
+      "admin-group",
+      "default"
+    ],
+    "3a28f7f5-5c19-460a-8bcc-9c46ba419102": "default",
+    "3dd84ec3-a693-41a1-95d9-8c4d6c6161a9": "default",
+    "599c8691-0a15-4a2a-9408-c11f0cdcfb11": [
+      "admin-group",
+      "default"
+    ],
+    "5b8a9e52-0bb2-40be-995d-81f4faff8904": [
+      "admin-group",
+      "default"
+    ],
+    "617dc8fb-12da-410b-893e-11947e38d2c3": "default",
+    "67dcebd3-8441-414b-9db9-52696836c985": "default",
+    "7df79d2a-448c-4967-911d-b7af68a44de2": "default",
+    "809c4b4f-e919-40b4-9bfd-451aa7ac959a": "default",
+    "8bde172c-56bf-4358-943d-5d79023614d9": [
+      "admin-group",
+      "default"
+    ],
+    "9c918d10-ba5e-4e7e-afcd-6b57bffeb6bd": "default",
+    "aa99e04e-e105-440a-8168-059ec77295ab": "default",
+    "af3cbb3e-2699-4f9f-a022-4621ef778ee4": "default",
+    "bd268de4-005c-4d59-830e-a7a1a58d3b11": [
+      "admin-group",
+      "default"
+    ],
+    "be0dceed-48c5-4b3c-83ad-26ad4a29c716": [
+      "admin-group",
+      "default"
+    ],
+    "be4302d2-8479-4f99-a1a5-f6e28426e5d2": [
+      "default"
+    ],
+    "c0723d8e-77e2-4aee-a9f0-69b4204be2e0": "default",
+    "c629446f-a5e3-4063-b96a-e9fa83b5ff0c": [
+      "admin-group",
+      "default"
+    ],
+    "c8c6b4c1-8915-4206-98ba-36fd3cae6f3b": [
+      "admin-group",
+      "default"
+    ],
+    "e4d0307d-1cd2-4513-b6ae-02c70aa3a96f": [
+      "admin-group",
+      "default"
+    ],
+    "ea5abaf4-554d-494d-9bd9-9be5705fc45e": [
+      "admin-group",
+      "default"
+    ]
+  }
+}

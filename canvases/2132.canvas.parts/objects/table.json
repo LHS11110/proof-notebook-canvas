@@ -1,0 +1,1078 @@
+{
+  "items": {
+    "5b8a9e52-0bb2-40be-995d-81f4faff8904": {
+      "columns": [
+        "관계_ID",
+        "부모_엔티티(PK측)",
+        "부모_기준키",
+        "카디널리티(Cardinality)",
+        "자식_엔티티(FK측)",
+        "자식_외래키",
+        "참조_무결성_규칙",
+        "비즈니스_및_논리적_관계_설명"
+      ],
+      "filename": "ipnb_4_erd_relationships.csv · 1–10 / 1–8",
+      "height": 1515,
+      "kind": "table",
+      "rows": [
+        [
+          "REL-01",
+          "users",
+          "user_id",
+          "1 : N",
+          "workspace_files",
+          "owner_id",
+          "ON DELETE CASCADE",
+          "한 명의 연구자는 좌측 파일 시스템 패널(VFS)에 다수의 이미지, 동영상, 논문 PDF, 데이터셋 파일을 업로드하고 소유함"
+        ],
+        [
+          "REL-02",
+          "users",
+          "user_id",
+          "1 : N",
+          "notebooks",
+          "owner_id",
+          "ON DELETE CASCADE",
+          "한 명의 연구자는 다수의 연구 세션(.ipnb 노트북 파일)을 생성하고 관리함"
+        ],
+        [
+          "REL-03",
+          "notebooks",
+          "notebook_id",
+          "1 : N",
+          "notebook_cells",
+          "notebook_id",
+          "ON DELETE CASCADE",
+          "하나의 노트북 세션은 중앙 패널에 다수의 셀(증명, 알고리즘, Markdown/LaTeX, 에이전트, 시각화)을 포함함"
+        ],
+        [
+          "REL-04",
+          "notebook_cells",
+          "cell_id",
+          "1 : N (Self-Reference DAG)",
+          "notebook_cells",
+          "parent_cell_id",
+          "ON DELETE SET NULL",
+          "증명 셀은 직전 셀의 Proof State 스냅샷을 상속받아 여러 대안 증명 경로로 트리를 분기(Branching)할 수 있음"
+        ],
+        [
+          "REL-05",
+          "users",
+          "user_id",
+          "1 : N",
+          "formal_objects_registry",
+          "first_prover_id",
+          "ON DELETE RESTRICT",
+          "한 명의 연구자는 자신이 세계 최초로 검증 완료한 정의(Definition) 및 정리(Theorem)들에 대해 영구적인 최초 증명자 지위를 가짐"
+        ],
+        [
+          "REL-06",
+          "notebook_cells",
+          "cell_id",
+          "1 : 1..N",
+          "formal_objects_registry",
+          "first_cell_id",
+          "ON DELETE RESTRICT",
+          "마스터 원장에 등록된 각 정의/정리는 최초로 검증에 성공했던 원본 증명 셀의 출처(Provenance)를 가리킴"
+        ],
+        [
+          "REL-07",
+          "formal_objects_registry",
+          "object_id",
+          "1 : N",
+          "proof_submissions",
+          "object_id",
+          "ON DELETE CASCADE",
+          "동일한 명제(정리)에 대해 최초 증명 이후에도 다른 연구자들이 더 짧은 증명이나 다른 전술을 사용한 대안 증명을 제출할 수 있음"
+        ],
+        [
+          "REL-08",
+          "users / formal_objects_registry",
+          "user_id, object_id",
+          "1 : N",
+          "contribution_rewards",
+          "user_id, object_id",
+          "ON DELETE RESTRICT",
+          "명제 구조 복잡도에 따른 최초 증명 보상, 최초 정의 보상, 증명 경량화 보상, 후속 정리에 의한 인용 로열티가 연구자에게 지급됨"
+        ],
+        [
+          "REL-09",
+          "formal_objects_registry (선행)",
+          "object_id",
+          "M : N (via object_dependencies)",
+          "formal_objects_registry (후속)",
+          "parent_object_id, dependent_object_id",
+          "ON DELETE CASCADE",
+          "정의와 정리들 간의 논리적 인용 구조를 방향성 비순환 그래프(DAG)로 연결하며 우측 패널 의존성 시각화 및 인용 보상에 사용됨"
+        ],
+        [
+          "REL-10",
+          "notebook_cells",
+          "cell_id",
+          "1 : N",
+          "agent_interactions",
+          "cell_id",
+          "ON DELETE CASCADE",
+          "에이전트 셀에서 이루어진 질의응답, 참조한 멀티모달 파일(이미지/PDF), 그림자 커널 검증 결과가 연구 일지로 셀에 귀속됨"
+        ]
+      ],
+      "width": 1165.370273,
+      "x": 1152.155472,
+      "y": 4554.783052
+    },
+    "8bde172c-56bf-4358-943d-5d79023614d9": {
+      "columns": [
+        "테이블_명",
+        "순번",
+        "컬럼_명",
+        "자료형",
+        "NULL_허용",
+        "키_유형",
+        "기본값_및_제약조건",
+        "참조_테이블(FK)",
+        "컬럼_설명"
+      ],
+      "filename": "ipnb_3_data_schema_columns.csv · 1–64 / 1–9",
+      "height": 3344,
+      "kind": "table",
+      "rows": [
+        [
+          "users",
+          "1",
+          "user_id",
+          "UUID",
+          "NO",
+          "PK",
+          "gen_random_uuid()",
+          "-",
+          "연구자 고유 식별자"
+        ],
+        [
+          "users",
+          "2",
+          "username",
+          "VARCHAR(64)",
+          "NO",
+          "UNIQUE",
+          "영문/숫자/밑줄",
+          "-",
+          "연구자 계정 아이디"
+        ],
+        [
+          "users",
+          "3",
+          "email",
+          "VARCHAR(255)",
+          "NO",
+          "UNIQUE",
+          "이메일 정규식 검증",
+          "-",
+          "연구자 이메일 주소"
+        ],
+        [
+          "users",
+          "4",
+          "orcid_id",
+          "VARCHAR(32)",
+          "YES",
+          "UNIQUE",
+          "0000-0000-0000-0000 형식",
+          "-",
+          "학술 논문 연동용 국제 연구자 식별 번호(ORCID)"
+        ],
+        [
+          "users",
+          "5",
+          "total_contribution_score",
+          "NUMERIC(14,2)",
+          "NO",
+          "INDEX",
+          "DEFAULT 0.00, CHECK (>= 0)",
+          "-",
+          "최초 정의/정리 증명 및 인용으로 누적된 총 기여도 보상 점수"
+        ],
+        [
+          "users",
+          "6",
+          "created_at",
+          "TIMESTAMPTZ",
+          "NO",
+          "-",
+          "DEFAULT NOW()",
+          "-",
+          "계정 가입 시각"
+        ],
+        [
+          "workspace_files",
+          "1",
+          "file_id",
+          "UUID",
+          "NO",
+          "PK",
+          "gen_random_uuid()",
+          "-",
+          "좌측 패널 파일 고유 식별자"
+        ],
+        [
+          "workspace_files",
+          "2",
+          "owner_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE CASCADE",
+          "users.user_id",
+          "파일 소유 연구자 ID"
+        ],
+        [
+          "workspace_files",
+          "3",
+          "file_type",
+          "VARCHAR(24)",
+          "NO",
+          "-",
+          "CHECK IN ('IMAGE','VIDEO','PDF','DATASET','CODE','IPNB')",
+          "-",
+          "파일 미디어 유형 (이미지, 동영상, 논문 PDF, 데이터셋, 코드, 노트북)"
+        ],
+        [
+          "workspace_files",
+          "4",
+          "virtual_path",
+          "TEXT",
+          "NO",
+          "INDEX",
+          "UNIQUE(owner_id, virtual_path)",
+          "-",
+          "좌측 파일 트리 패널 내 가상 디렉터리 경로 (예: /papers/hott.pdf)"
+        ],
+        [
+          "workspace_files",
+          "5",
+          "s3_uri",
+          "TEXT",
+          "NO",
+          "-",
+          "s3://ipnb-storage/...",
+          "-",
+          "MinIO 오브젝트 스토리지 실제 저장 경로"
+        ],
+        [
+          "workspace_files",
+          "6",
+          "media_metadata",
+          "JSONB",
+          "YES",
+          "-",
+          "DEFAULT '{}'::jsonb",
+          "-",
+          "해상도, 동영상 길이, PDF 페이지 수 및 OCR 추출 텍스트 캐시"
+        ],
+        [
+          "notebooks",
+          "1",
+          "notebook_id",
+          "UUID",
+          "NO",
+          "PK",
+          "gen_random_uuid()",
+          "-",
+          "연구 세션 및 .ipnb 노트북 문서 고유 식별자"
+        ],
+        [
+          "notebooks",
+          "2",
+          "owner_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE CASCADE",
+          "users.user_id",
+          "노트북 소유자 ID"
+        ],
+        [
+          "notebooks",
+          "3",
+          "title",
+          "VARCHAR(255)",
+          "NO",
+          "-",
+          "NOT NULL",
+          "-",
+          "연구 노트북 제목"
+        ],
+        [
+          "notebooks",
+          "4",
+          "default_prover",
+          "VARCHAR(20)",
+          "NO",
+          "-",
+          "CHECK IN ('LEAN4','ROCQ','ISABELLE')",
+          "-",
+          "세션 기본 증명 보조기 커널"
+        ],
+        [
+          "notebooks",
+          "5",
+          "right_pane_config",
+          "JSONB",
+          "NO",
+          "-",
+          "DEFAULT '{}'::jsonb",
+          "-",
+          "우측 패널 시각화 레이아웃, 그래프 필터 및 에이전트 설정값"
+        ],
+        [
+          "notebook_cells",
+          "1",
+          "cell_id",
+          "UUID",
+          "NO",
+          "PK",
+          "gen_random_uuid()",
+          "-",
+          "중앙 패널의 개별 셀 고유 식별자"
+        ],
+        [
+          "notebook_cells",
+          "2",
+          "notebook_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE CASCADE",
+          "notebooks.notebook_id",
+          "소속 노트북 ID"
+        ],
+        [
+          "notebook_cells",
+          "3",
+          "parent_cell_id",
+          "UUID",
+          "YES",
+          "FK (Self)",
+          "ON DELETE SET NULL",
+          "notebook_cells.cell_id",
+          "비선형 증명 상태 트리(DAG) 구성을 위한 직전 부모 셀 ID"
+        ],
+        [
+          "notebook_cells",
+          "4",
+          "cell_order",
+          "INT",
+          "NO",
+          "INDEX",
+          "CHECK (cell_order >= 0)",
+          "-",
+          "중앙 패널 화면 내 셀 정렬 순서"
+        ],
+        [
+          "notebook_cells",
+          "5",
+          "cell_type",
+          "VARCHAR(20)",
+          "NO",
+          "-",
+          "CHECK IN ('PROOF','ALGO_CODE','MARKDOWN_LATEX','AGENT','VIS')",
+          "-",
+          "셀 역할 구분 (증명, 알고리즘 코드, 마크다운/LaTeX, 에이전트 대화, 시각화)"
+        ],
+        [
+          "notebook_cells",
+          "6",
+          "runtime_engine",
+          "VARCHAR(20)",
+          "NO",
+          "-",
+          "CHECK IN ('LEAN4','ROCQ','ISABELLE','PYTHON','CPP','RUST','LATEX','LLM')",
+          "-",
+          "셀 실행 런타임 엔진"
+        ],
+        [
+          "notebook_cells",
+          "7",
+          "content_raw",
+          "TEXT",
+          "NO",
+          "-",
+          "NOT NULL",
+          "-",
+          "셀 내부에 작성된 증명 코드, 알고리즘, LaTeX 수식 또는 프롬프트 원문"
+        ],
+        [
+          "notebook_cells",
+          "8",
+          "proof_state_json",
+          "JSONB",
+          "YES",
+          "GIN INDEX",
+          "NULL 허용",
+          "-",
+          "증명 셀 실행 전후의 가설(Hypotheses) 및 목표(Goal) 상태 트리 스냅샷"
+        ],
+        [
+          "notebook_cells",
+          "9",
+          "execution_output",
+          "JSONB",
+          "YES",
+          "-",
+          "NULL 허용",
+          "-",
+          "알고리즘 실행 표준 출력, 에러 로그 및 우측 패널 렌더링용 그래프 데이터"
+        ],
+        [
+          "notebook_cells",
+          "10",
+          "verification_status",
+          "VARCHAR(20)",
+          "NO",
+          "-",
+          "DEFAULT 'DRAFT', CHECK IN ('DRAFT','RUNNING','VERIFIED','FAILED')",
+          "-",
+          "셀 검증 및 실행 상태"
+        ],
+        [
+          "formal_objects_registry",
+          "1",
+          "object_id",
+          "UUID",
+          "NO",
+          "PK",
+          "gen_random_uuid()",
+          "-",
+          "검증 완료된 정의/정리 마스터 원장 고유 ID"
+        ],
+        [
+          "formal_objects_registry",
+          "2",
+          "object_kind",
+          "VARCHAR(20)",
+          "NO",
+          "INDEX",
+          "CHECK IN ('DEFINITION','AXIOM','LEMMA','THEOREM','COROLLARY')",
+          "-",
+          "형식 수학 객체 구분 (정의 vs 공리/보조정리/정리/따름정리)"
+        ],
+        [
+          "formal_objects_registry",
+          "3",
+          "canonical_ast_hash",
+          "CHAR(64)",
+          "NO",
+          "UNIQUE",
+          "SHA-256 (De Bruijn Normalized AST)",
+          "-",
+          "변수명 변경에 무관하게 명제 구조를 유일 식별하는 정규화 해시 (최초 증명 판별 키)"
+        ],
+        [
+          "formal_objects_registry",
+          "4",
+          "prover_kind",
+          "VARCHAR(20)",
+          "NO",
+          "-",
+          "CHECK IN ('LEAN4','ROCQ','ISABELLE')",
+          "-",
+          "검증에 사용된 증명 보조기 종류"
+        ],
+        [
+          "formal_objects_registry",
+          "5",
+          "object_name",
+          "VARCHAR(255)",
+          "NO",
+          "INDEX",
+          "NOT NULL",
+          "-",
+          "선언된 정의 또는 정리의 식별자 명칭"
+        ],
+        [
+          "formal_objects_registry",
+          "6",
+          "type_signature",
+          "TEXT",
+          "NO",
+          "-",
+          "NOT NULL",
+          "-",
+          "명제 또는 정의의 형식 타입 시그니처 원문"
+        ],
+        [
+          "formal_objects_registry",
+          "7",
+          "prop_structure_json",
+          "JSONB",
+          "NO",
+          "GIN INDEX",
+          "NOT NULL",
+          "-",
+          "명제 구조 분석 메트릭 (양화사 교차 깊이, 논리 연결사 분포, AST 노드 수)"
+        ],
+        [
+          "formal_objects_registry",
+          "8",
+          "complexity_score",
+          "NUMERIC(10,2)",
+          "NO",
+          "-",
+          "CHECK (complexity_score > 0)",
+          "-",
+          "명제 구조 분석을 통해 산출된 기초 난이도/복잡도 점수"
+        ],
+        [
+          "formal_objects_registry",
+          "9",
+          "natural_summary_ko",
+          "TEXT",
+          "NO",
+          "-",
+          "NOT NULL",
+          "-",
+          "에이전트가 생성한 해당 정의/정리의 한국어 수리적 의미 요약"
+        ],
+        [
+          "formal_objects_registry",
+          "10",
+          "first_prover_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE RESTRICT (불변 보존)",
+          "users.user_id",
+          "최초 증명자(First Prover) 또는 최초 정의자의 고유 사용자 ID"
+        ],
+        [
+          "formal_objects_registry",
+          "11",
+          "first_cell_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE RESTRICT",
+          "notebook_cells.cell_id",
+          "최초 증명이 달성된 원본 증명 셀 ID"
+        ],
+        [
+          "formal_objects_registry",
+          "12",
+          "first_verified_at",
+          "TIMESTAMPTZ",
+          "NO",
+          "INDEX",
+          "DEFAULT NOW() (수정 불가)",
+          "-",
+          "최초 증명이 커널에 의해 검증 완료된 마이크로초 단위 시각"
+        ],
+        [
+          "formal_objects_registry",
+          "13",
+          "embedding_vec",
+          "VECTOR(1536)",
+          "YES",
+          "HNSW INDEX",
+          "vector_cosine_ops",
+          "-",
+          "에이전트 RAG 조회를 위한 형식 명세+자연어 결합 임베딩 벡터"
+        ],
+        [
+          "proof_submissions",
+          "1",
+          "submission_id",
+          "UUID",
+          "NO",
+          "PK",
+          "gen_random_uuid()",
+          "-",
+          "증명 검증 제출 이력 고유 ID"
+        ],
+        [
+          "proof_submissions",
+          "2",
+          "object_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE CASCADE",
+          "formal_objects_registry.object_id",
+          "검증 대상 정의/정리 ID"
+        ],
+        [
+          "proof_submissions",
+          "3",
+          "user_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE CASCADE",
+          "users.user_id",
+          "증명을 실행한 연구자 ID"
+        ],
+        [
+          "proof_submissions",
+          "4",
+          "cell_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE CASCADE",
+          "notebook_cells.cell_id",
+          "실행된 증명 셀 ID"
+        ],
+        [
+          "proof_submissions",
+          "5",
+          "is_first_proof",
+          "BOOLEAN",
+          "NO",
+          "INDEX",
+          "NOT NULL",
+          "-",
+          "세계 최초 증명 달성 여부 (TRUE일 경우 최초 증명 보상 지급)"
+        ],
+        [
+          "proof_submissions",
+          "6",
+          "is_complete",
+          "BOOLEAN",
+          "NO",
+          "-",
+          "CHECK (is_complete = TRUE)",
+          "-",
+          "sorry, Admitted 등 우회 키워드가 없는 완전 검증 통과 여부"
+        ],
+        [
+          "proof_submissions",
+          "7",
+          "proof_length_tokens",
+          "INT",
+          "NO",
+          "-",
+          "CHECK (> 0)",
+          "-",
+          "증명 스크립트 전술(Tactic) 토큰 수 (증명 최적화 보상 판별용)"
+        ],
+        [
+          "contribution_rewards",
+          "1",
+          "reward_id",
+          "UUID",
+          "NO",
+          "PK",
+          "gen_random_uuid()",
+          "-",
+          "기여도 보상 원장 고유 ID"
+        ],
+        [
+          "contribution_rewards",
+          "2",
+          "user_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE RESTRICT",
+          "users.user_id",
+          "보상을 수령한 연구자 ID"
+        ],
+        [
+          "contribution_rewards",
+          "3",
+          "object_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE RESTRICT",
+          "formal_objects_registry.object_id",
+          "보상 발생 대상 정의/정리 ID"
+        ],
+        [
+          "contribution_rewards",
+          "4",
+          "submission_id",
+          "UUID",
+          "YES",
+          "FK",
+          "NULL 허용 (인용 로열티 시)",
+          "proof_submissions.submission_id",
+          "보상을 유발한 증명 제출 ID"
+        ],
+        [
+          "contribution_rewards",
+          "5",
+          "reward_type",
+          "VARCHAR(32)",
+          "NO",
+          "-",
+          "CHECK IN ('FIRST_THEOREM_PROOF','FIRST_DEFINITION','PROOF_OPTIMIZATION','CITATION_ROYALTY')",
+          "-",
+          "보상 지급 사유 유형"
+        ],
+        [
+          "contribution_rewards",
+          "6",
+          "awarded_points",
+          "NUMERIC(10,2)",
+          "NO",
+          "-",
+          "CHECK (> 0)",
+          "-",
+          "지급된 기여도 보상 점수"
+        ],
+        [
+          "contribution_rewards",
+          "7",
+          "calculation_detail",
+          "JSONB",
+          "NO",
+          "-",
+          "NOT NULL",
+          "-",
+          "산출 수식 파라미터 스냅샷 (양화사 깊이, AST 복잡도, 가중치 등)"
+        ],
+        [
+          "object_dependencies",
+          "1",
+          "parent_object_id",
+          "UUID",
+          "NO",
+          "PK, FK",
+          "Composite PK (1)",
+          "formal_objects_registry.object_id",
+          "인용된 선행 정의 또는 선행 정리 ID"
+        ],
+        [
+          "object_dependencies",
+          "2",
+          "dependent_object_id",
+          "UUID",
+          "NO",
+          "PK, FK",
+          "Composite PK (2), CHECK (parent != dependent)",
+          "formal_objects_registry.object_id",
+          "선행 객체를 사용하여 증명된 후속 정리 ID"
+        ],
+        [
+          "object_dependencies",
+          "3",
+          "dependency_role",
+          "VARCHAR(24)",
+          "NO",
+          "-",
+          "CHECK IN ('TYPE_DEF_USAGE','LEMMA_APPLICATION','REWRITE_RULE')",
+          "-",
+          "의존성 역할 (정의 타입 사용, 보조정리 적용, 대입 규칙)"
+        ],
+        [
+          "agent_interactions",
+          "1",
+          "interaction_id",
+          "UUID",
+          "NO",
+          "PK",
+          "gen_random_uuid()",
+          "-",
+          "에이전트 협업 대화 및 추론 로그 고유 ID"
+        ],
+        [
+          "agent_interactions",
+          "2",
+          "cell_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE CASCADE",
+          "notebook_cells.cell_id",
+          "대화가 기록된 중앙 패널 에이전트 셀 ID"
+        ],
+        [
+          "agent_interactions",
+          "3",
+          "user_id",
+          "UUID",
+          "NO",
+          "FK",
+          "ON DELETE CASCADE",
+          "users.user_id",
+          "질문 연구자 ID"
+        ],
+        [
+          "agent_interactions",
+          "4",
+          "attached_file_ids",
+          "UUID[]",
+          "YES",
+          "-",
+          "DEFAULT '{}'",
+          "workspace_files.file_id (배열)",
+          "에이전트가 참조한 좌측 패널 이미지/PDF/코드 파일 ID 목록"
+        ],
+        [
+          "agent_interactions",
+          "5",
+          "retrieved_object_ids",
+          "UUID[]",
+          "YES",
+          "-",
+          "DEFAULT '{}'",
+          "formal_objects_registry.object_id (배열)",
+          "환각 억제를 위해 RAG로 조회한 검증 완료 정의/정리 ID 목록"
+        ],
+        [
+          "agent_interactions",
+          "6",
+          "shadow_verified",
+          "BOOLEAN",
+          "NO",
+          "-",
+          "DEFAULT FALSE",
+          "-",
+          "제안된 증명 전술의 그림자 커널(Shadow Kernel) 사전 검증 통과 여부"
+        ],
+        [
+          "agent_interactions",
+          "7",
+          "agent_response_content",
+          "TEXT",
+          "NO",
+          "-",
+          "NOT NULL",
+          "-",
+          "에이전트가 생성한 증명 전술, 알고리즘 코드 또는 LaTeX 논문 초안"
+        ]
+      ],
+      "width": 1316.141982,
+      "x": 2589.726372,
+      "y": 2212.899714
+    },
+    "bd268de4-005c-4d59-830e-a7a1a58d3b11": {
+      "columns": [
+        "요구사항_ID",
+        "분류",
+        "요구사항_명",
+        "우선순위",
+        "대상_컴포넌트",
+        "입력_데이터",
+        "처리_및_검증_규칙",
+        "출력_및_연계_테이블"
+      ],
+      "filename": "ipnb_1_requirements_srs.csv · 1–10 / 1–8",
+      "height": 1051,
+      "kind": "table",
+      "rows": [
+        [
+          "FR-01",
+          "기능 요구사항 (증명/검증)",
+          "다중 증명 보조기 코드 셀 분할 및 실행",
+          "상 (Mandatory)",
+          "Center Pane / Prover Kernel",
+          "Lean 4, Rocq(Coq), Isabelle 증명 스크립트 조각",
+          "셀 단위로 증명 스크립트를 분할 실행하고, 부모 셀의 Proof State 스냅샷 ID를 상속받아 비선형(DAG) 분기 실행 지원",
+          "notebook_cells (proof_state_json 업데이트)"
+        ],
+        [
+          "FR-02",
+          "기능 요구사항 (형식 분류)",
+          "정의(Definition) 및 정리(Theorem) 자동 구분",
+          "상 (Mandatory)",
+          "AST Parser / Formal Classifier",
+          "검증 완료된 증명 셀의 추상 구문 트리(AST)",
+          "선언 키워드 및 타입 구조를 파싱하여 기초 개념 정의(Definition, Inductive, Structure)와 논리적 귀결(Theorem, Lemma, Corollary)로 자동 분류",
+          "formal_objects_registry (object_kind 컬럼)"
+        ],
+        [
+          "FR-03",
+          "기능 요구사항 (구조 분석/보상)",
+          "명제 구조 복잡도 분석 및 최초 증명 기여도 보상",
+          "상 (Mandatory)",
+          "Proposition Analyzer / Reward Engine",
+          "정규화된 드 브루인(De Bruijn) AST 및 의존성 그래프",
+          "양화사 교차 깊이(∀, ∃), 논리 연결사 수, AST 깊이, 인용 차수를 계산하여 복잡도 산출 후 세계 최초 증명자(First Prover)에게 원자적 보상 부여",
+          "formal_objects_registry, contribution_rewards, users"
+        ],
+        [
+          "FR-04",
+          "기능 요구사항 (문서/직관 표현)",
+          "형식·비형식·시각적 직관 문서화 및 논문 변환",
+          "상 (Mandatory)",
+          "Center Pane / LaTeX Engine",
+          "Markdown 텍스트, LaTeX 수식 블록, TikZ/가환 다이어그램",
+          "자연어 직관과 수식을 실시간 렌더링(KaTeX/MathJax)하고, 검증된 정리 번호 및 증명과 바인딩하여 학술 논문(IEEE/ACM LaTeX)으로 즉시 컴파일",
+          "notebook_cells (MARKDOWN_LATEX), PDF/TeX Export"
+        ],
+        [
+          "FR-05",
+          "기능 요구사항 (UI/UX 공간)",
+          "좌·중·우 3단 패널(3-Pane) 통합 연구 워크스페이스",
+          "상 (Mandatory)",
+          "Frontend Workspace Layout",
+          "파일/세션 트리 조작, 셀 편집 이벤트, 시각화/설정 파라미터",
+          "좌측(멀티모달 파일 VFS 및 세션 관리), 중앙(대화/문서/알고리즘/증명 셀 편집), 우측(Goal State 트리, 의존성 그래프 시각화, 세부 설정) 동기화",
+          "workspace_files, notebooks (right_pane_config)"
+        ],
+        [
+          "FR-06",
+          "기능 요구사항 (알고리즘 연구)",
+          "범용 알고리즘 코드 실행 및 수치/그래프 실험",
+          "상 (Mandatory)",
+          "Algorithm Sandbox / Right Pane Visualizer",
+          "Python, C++20, Rust 알고리즘 및 시뮬레이션 코드",
+          "증명 전 가설 검증, 반례(Counterexample) 탐색, 시간 복잡도 실험을 위한 코드를 격리 실행하고 결과를 우측 패널 인터랙티브 그래프로 시각화",
+          "notebook_cells (ALGO_CODE, execution_output)"
+        ],
+        [
+          "FR-07",
+          "기능 요구사항 (AI 에이전트)",
+          "멀티모달 파일 참조 기반 연구/논문 작성 에이전트",
+          "상 (Mandatory)",
+          "Multimodal Agent Core",
+          "좌측 패널 업로드 이미지(손글씨 수식/다이어그램), 동영상, PDF 논문, 코드 파일",
+          "시각 자료와 선행 논문 PDF를 파싱하여 형식 명세(Lean/Rocq) 초안이나 LaTeX 논문 섹션을 생성하고 대화 내역을 연구 일지 셀로 영구 보존",
+          "agent_interactions (attached_file_ids), notebook_cells"
+        ],
+        [
+          "FR-08",
+          "기능 요구사항 (무환각 검증)",
+          "DB 조회 및 그림자 커널(Shadow Kernel) 기반 무환각 추론",
+          "상 (Mandatory)",
+          "Shadow Verifier / pgvector RAG",
+          "에이전트가 생성한 후보 전술(Tactic), 정리 인용, 알고리즘 코드",
+          "RDB 내 검증된 정리 원장만 인용하도록 강제하고, 백그라운드 그림자 커널에서 실제 컴파일/검증을 통과한 무환각 응답만 사용자 셀에 노출",
+          "agent_interactions (shadow_verified, retrieved_object_ids)"
+        ],
+        [
+          "NFR-01",
+          "비기능 요구사항 (보안/감사)",
+          "미완성 우회 증명 차단 및 알파-동치성 정규화 감사",
+          "상 (Critical)",
+          "AST Security Auditor",
+          "제출된 증명 스크립트 및 커널 환경 컨텍스트",
+          "sorry, Admitted, admit, oops 및 불법 axiom 주입을 AST 레벨에서 100% 차단하고, 변수명만 바꾼 중복 증명을 드 브루인 해시로 걸러냄",
+          "proof_submissions (is_complete), formal_objects_registry"
+        ],
+        [
+          "NFR-02",
+          "비기능 요구사항 (동시성/성능)",
+          "최초 증명자 원자적 트랜잭션 보장 및 커널 격리",
+          "상 (Critical)",
+          "PostgreSQL Transaction / gVisor Pool",
+          "동시 다발적 증명 완료 이벤트 및 리소스 집약적 코드 실행",
+          "동일 명제 동시 증명 시 마이크로초 단위 Upsert 잠금으로 유일한 최초 증명자를 결정하며, 셀 실행은 gVisor 컨테이너에서 CPU/메모리 쿼터 격리",
+          "formal_objects_registry (UNIQUE canonical_ast_hash)"
+        ]
+      ],
+      "width": 1028.425152,
+      "x": 1127.300771,
+      "y": 2090.979002
+    },
+    "c8c6b4c1-8915-4206-98ba-36fd3cae6f3b": {
+      "columns": [
+        "계층_분류",
+        "컴포넌트_ID",
+        "컴포넌트_명",
+        "기술_스택",
+        "담당_역할_및_명세",
+        "연동_인터페이스",
+        "스케일링_및_격리정책"
+      ],
+      "filename": "ipnb_2_architecture_infra.csv · 1–10 / 1–7",
+      "height": 973,
+      "kind": "table",
+      "rows": [
+        [
+          "1. 프론트엔드 (3-Pane UI)",
+          "UI-LEFT-VFS",
+          "좌측 패널: 멀티모달 VFS 및 세션 탐색기",
+          "React 18, TypeScript, Zustand, TanStack Virtual",
+          "이미지, 동영상, 논문 PDF, 코드 데이터셋을 디렉터리 트리로 관리하고 대화/문서/증명 셀 집합(.ipnb)을 파일 또는 세션 단위로 마운트",
+          "REST API / S3 Presigned URL / workspace_files",
+          "대용량 미디어 청크 업로드 및 브라우저 IndexedDB 로컬 캐싱"
+        ],
+        [
+          "1. 프론트엔드 (3-Pane UI)",
+          "UI-CENTER-CANVAS",
+          "중앙 패널: 하이브리드 다중 셀 워크스페이스",
+          "Monaco Editor, KaTeX, TikZJax, LSP WebSocket Client",
+          "증명 셀(Lean/Rocq/Isabelle), 알고리즘 셀(Python/C++/Rust), 직관 문서 셀(Markdown/LaTeX), 에이전트 대화 셀의 작성·실행·분할 관리",
+          "JSON-RPC 2.0 over WebSocket / CRDT 동시 편집",
+          "셀 단위 가상 렌더링(Virtual Scroll) 및 DAG 상태 분기 스냅샷 연동"
+        ],
+        [
+          "1. 프론트엔드 (3-Pane UI)",
+          "UI-RIGHT-INSPECTOR",
+          "우측 패널: Goal 인스펙터·시각화·설정 뷰어",
+          "Cytoscape.js, D3.js, Three.js, Plotly.js",
+          "실시간 증명 상태(Hypotheses & Goal) 트리 출력, 명제 구조 복잡도 및 예상 보상 표시, 정의-정리 인용 그래프 및 알고리즘 실행 플롯 렌더링",
+          "Kernel State Stream / object_dependencies Graph API",
+          "WebGL 하드웨어 가속 그래프 렌더링 (노드 10,000개 이상 실시간 탐색)"
+        ],
+        [
+          "2. 게이트웨이 및 오케스트레이션",
+          "GW-API-ROUTER",
+          "API 게이트웨이 및 상태 유지형 세션 라우터",
+          "Rust (Axum) / FastAPI, Envoy Proxy, Redis Cluster",
+          "사용자 인증(JWT/ORCID), WebSocket 멀티플렉싱, 셀 실행 요청을 해당 사용자의 활성 증명 커널 파드(Pod)로 고정 라우팅(Sticky Routing)",
+          "HTTPS / WSS / gRPC Internal",
+          "수평 오토스케일링(HPA) 및 Redis 기반 세션 상태 스냅샷 유지"
+        ],
+        [
+          "3. AI 에이전트 및 무환각 검증 코어",
+          "AGENT-MULTIMODAL",
+          "멀티모달 연구/증명/논문 작성 에이전트",
+          "vLLM, Multimodal LLM, LangGraph, MathOCR",
+          "좌측 패널의 이미지(손글씨 수식, 가환 그림), PDF 논문, 기존 셀 문맥을 참조하여 증명 전술 제안, 알고리즘 코드 작성, LaTeX 논문 초안 생성",
+          "gRPC / pgvector 하이브리드 검색 / MinIO S3",
+          "GPU 노드 풀(A100/H100) 전용 배치 및 스트리밍 토큰 출력"
+        ],
+        [
+          "3. AI 에이전트 및 무환각 검증 코어",
+          "AGENT-SHADOW-VERIFIER",
+          "그림자 커널(Shadow Kernel) 환각 억제 필터",
+          "Async Python Worker, Headless Lean/Rocq Verifier",
+          "에이전트가 생성한 증명 전술이나 정리 인용을 사용자에게 보여주기 전에 백그라운드 커널 및 RDB 원장과 대조하여 오류/환각을 사전 필터링",
+          "Internal gRPC / formal_objects_registry 조회",
+          "병렬 경량 워커 풀 운영 (평균 사전 검증 지연시간 300ms 이내)"
+        ],
+        [
+          "4. 증명 및 알고리즘 실행 샌드박스",
+          "SANDBOX-PROVER",
+          "다중 증명 보조기 커널 클러스터",
+          "Lean 4 REPL, Rocq SerAPI/coq-lsp, Isabelle PIDE",
+          "셀 단위 형식 증명 검증, AST 추출, 드 브루인 인덱스 변환, 정의/정리 분류 및 미완성 키워드(sorry/Admitted) 감사 수행",
+          "Stdio JSON-RPC / gRPC Wrapper",
+          "Kubernetes + gVisor 샌드박스 격리 (세션당 4 vCPU, 8GB RAM 제한)"
+        ],
+        [
+          "4. 증명 및 알고리즘 실행 샌드박스",
+          "SANDBOX-ALGO",
+          "알고리즘 연구용 코드 실행 컨테이너",
+          "Jupyter Kernel Gateway (Python 3.12, C++20, Rust)",
+          "수치 해석, 반례 탐색, 그래프 이론 시뮬레이션 코드 실행 및 우측 패널 시각화용 JSON/이미지 데이터 생성",
+          "ZeroMQ / WebSocket",
+          "네트워크 외부 차단(Air-gapped) gVisor 컨테이너 및 실행 타임아웃 적용"
+        ],
+        [
+          "5. 스토리지 및 보상 트랜잭션 계층",
+          "STORAGE-RDB-VECTOR",
+          "통합 관계형 DB 및 시맨틱 벡터 원장",
+          "PostgreSQL 16 + pgvector (HNSW Index)",
+          "사용자/노트북/셀 관리, 정의·정리 마스터 원장 보존, 최초 증명자 원자적 판별, 명제 구조 복잡도 기반 보상 트랜잭션 처리 및 시맨틱 정리 검색",
+          "Asyncpg Connection Pool (PgBouncer)",
+          "Primary-Replica 고가용성(HA) 구성 및 원장 테이블 변경 불가(Append-only) 감사"
+        ],
+        [
+          "5. 스토리지 및 보상 트랜잭션 계층",
+          "STORAGE-OBJECT",
+          "멀티모달 파일 및 증명 스냅샷 오브젝트 스토리지",
+          "MinIO (S3 호환 분산 스토리지)",
+          "좌측 패널에 업로드된 이미지, 동영상, PDF 논문 원본과 컴파일된 증명 환경 바이너리(.olean, .vo) 스냅샷 저장",
+          "S3 API (TLS 암호화)",
+          "Erasure Coding 기반 데이터 내구성 보장"
+        ]
+      ],
+      "width": 1210.732558,
+      "x": 1127.243104,
+      "y": 3453.091825
+    }
+  }
+}
