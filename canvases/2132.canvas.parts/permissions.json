@@ -1,43 +1,505 @@
 {
   "permissions": {
-    "12b41563-4c42-4582-b067-86d8f8661756": "default",
+    "00022a06-12df-46a8-9fa1-0de25f2d8ffd": [
+      "test"
+    ],
+    "01edb0ec-e285-4d4b-b5af-02ea55096835": [
+      "admin-group",
+      "default"
+    ],
+    "042625bb-650b-476f-99cd-3e2ec092d700": [
+      "admin-group",
+      "default"
+    ],
+    "04d3f3b7-2b33-45e2-a958-870e146a9dc0": [
+      "default",
+      "bot!"
+    ],
+    "070c71d4-385f-44e4-9e8b-d46e430c0d0c": [
+      "admin-group",
+      "default"
+    ],
+    "0762d1fc-c99d-42b1-8a28-1e53dc047c90": [
+      "test"
+    ],
+    "09c0800d-cac3-41c9-8603-d69deb91785c": [
+      "default",
+      "bot!"
+    ],
+    "0a8f91d6-4e5a-43ba-bdfe-33c1dc4f5619": [
+      "default",
+      "bot!"
+    ],
+    "0b4a1a51-ff8c-4c2a-89fc-c6028e2ab62b": [
+      "admin-group",
+      "default"
+    ],
+    "0b843da5-72da-417e-8e61-bf09ed24e109": [
+      "default",
+      "bot!"
+    ],
+    "0c792fe1-315d-4d8f-b356-01104dbf6456": [
+      "admin-group",
+      "default"
+    ],
+    "0dbb3bad-20f9-4054-84d2-768c8d718a2c": [
+      "default",
+      "bot!"
+    ],
+    "0e61e214-6334-419b-a435-97d06dd29d8e": [
+      "admin-group",
+      "default"
+    ],
+    "0ef08c04-e3e2-422a-b449-ccf9d6c49ba9": [
+      "default",
+      "bot!"
+    ],
+    "107ee667-3ab8-4e69-aff3-2642a9d6d7f4": [
+      "test"
+    ],
+    "132f71af-4145-4219-a7ce-b4c26b199f96": [
+      "default",
+      "bot!"
+    ],
+    "15b66102-a1fe-4b46-945a-76159eb32744": [
+      "default",
+      "bot!"
+    ],
+    "1ad85847-58e9-4412-9ed7-48da20f5d8af": [
+      "default",
+      "bot!"
+    ],
+    "1d69afdc-e54d-48b2-9ecb-f2a30db305ee": [
+      "default",
+      "bot!"
+    ],
+    "1e8207fd-a897-429c-829d-dba842f36f7b": [
+      "default",
+      "bot!"
+    ],
+    "1ef920b5-6aa0-45bb-a9e2-b542b5437ed4": [
+      "admin-group",
+      "default"
+    ],
+    "1f7d3eed-4786-4b0b-a501-3610d8010648": [
+      "default",
+      "bot!"
+    ],
+    "1feb4fd3-d60f-4828-bc24-ac65136e1589": [
+      "default",
+      "bot!"
+    ],
     "210bc596-9c3c-44ce-a67c-52d8ce0b5019": [
       "admin-group",
       "default"
     ],
+    "2458aa9f-4164-4ce5-883b-1827cdae84e3": [
+      "default",
+      "bot!"
+    ],
+    "262026d7-a588-4949-83c4-77bdd8db86d2": [
+      "default",
+      "bot!"
+    ],
+    "26cdc68d-9c2e-40d8-9adc-b21a6975c28e": [
+      "default",
+      "bot!"
+    ],
+    "26fa8d06-4956-48f7-a1ed-10bd39ceab4a": [
+      "test"
+    ],
+    "27114a87-1e34-4c9f-a204-afbac83683bf": [
+      "default",
+      "bot!"
+    ],
+    "281ea314-47d8-4161-8ebd-0e5141fcadcb": [
+      "admin-group",
+      "default"
+    ],
+    "2830006f-f53b-4669-85a8-c7e902c08ff2": [
+      "admin-group",
+      "default"
+    ],
+    "2a3ca19f-2c23-434e-9430-c9c7ce6da75d": [
+      "admin-group",
+      "default"
+    ],
+    "2c774d1e-a7c4-4a92-8b5a-c1cea23361f1": [
+      "admin-group",
+      "default"
+    ],
+    "2ca72dfd-75e0-41d6-8afa-6b27739f7f8a": [
+      "default",
+      "bot!"
+    ],
     "3006adf7-f9fe-46d3-bb12-4d2347ff31e4": [
       "default"
     ],
-    "33875bfe-e5c7-4320-ba5d-3232c549dc12": "default",
+    "302d5538-8cda-400c-b2c3-61a60bbae926": [
+      "admin-group",
+      "default"
+    ],
+    "31cc2eb6-7b92-4cfc-b1f7-daeca00c9b80": [
+      "default",
+      "bot!"
+    ],
+    "31cc4610-ab55-41e8-a7c5-67328ceba6a7": [
+      "default",
+      "bot!"
+    ],
     "3662bd77-124a-4801-ab81-b93eacae7b0f": [
       "admin-group",
       "default"
     ],
+    "3887a2fb-4927-4c89-865b-13990d80ced2": [
+      "default",
+      "bot!"
+    ],
     "3a28f7f5-5c19-460a-8bcc-9c46ba419102": "default",
+    "3bf440f7-afa7-4b8c-95c0-0777f6f39da2": [
+      "test"
+    ],
+    "3c0db023-b615-477e-9102-e76ee79ce5ad": [
+      "default",
+      "bot!"
+    ],
     "3dd84ec3-a693-41a1-95d9-8c4d6c6161a9": "default",
-    "599c8691-0a15-4a2a-9408-c11f0cdcfb11": [
+    "3f25e6e2-80c7-4375-b3e8-eba0c1b7550c": [
+      "default",
+      "bot!"
+    ],
+    "405d629e-a75e-4bb2-b38a-ed590db8e4de": [
+      "default",
+      "bot!"
+    ],
+    "43b5363b-9442-4f00-bf67-49a02d7bb41d": [
+      "default",
+      "bot!"
+    ],
+    "454623d0-3c7d-49f3-92f4-5fffcc78064d": [
+      "default",
+      "bot!"
+    ],
+    "460b3907-12bf-4df8-8607-1c2c7a782d11": [
       "admin-group",
       "default"
+    ],
+    "464431e0-fc69-4099-90a5-caa5dd825d7e": [
+      "admin-group",
+      "default"
+    ],
+    "47996b31-a1b5-47c5-b6b6-80cf793611f7": [
+      "default",
+      "bot!"
+    ],
+    "4d3dd249-f2c1-454e-92e9-69387413a716": [
+      "admin-group",
+      "default"
+    ],
+    "4db36265-b796-403b-8fc1-609630f4d3e9": [
+      "default",
+      "bot!"
+    ],
+    "4f4c7308-bf37-48ce-9dda-de4d30fd40f2": [
+      "admin-group",
+      "default"
+    ],
+    "5229eedc-66e9-491e-9066-856ff6ea9c99": [
+      "default",
+      "bot!"
+    ],
+    "566409d2-9a02-4653-919a-5c4259325fb8": [
+      "default",
+      "bot!"
+    ],
+    "56a78037-e3f6-48f9-9f83-a939e66be3d1": [
+      "admin-group",
+      "default"
+    ],
+    "592220a2-9cae-430f-b12a-c109bedda195": [
+      "admin-group",
+      "default"
+    ],
+    "596615c0-07ba-46b3-aad4-b317f7b7906c": [
+      "admin-group",
+      "default"
+    ],
+    "59ce7dcc-78e1-42a0-8850-0764e9ee8755": [
+      "admin-group",
+      "default"
+    ],
+    "5aae5b97-76f0-4803-87c3-b01c26629b64": [
+      "default",
+      "bot!"
+    ],
+    "5af3a115-e45c-443c-88b3-3b3e32f6fc28": [
+      "default",
+      "bot!"
     ],
     "5b8a9e52-0bb2-40be-995d-81f4faff8904": [
       "admin-group",
       "default"
     ],
-    "617dc8fb-12da-410b-893e-11947e38d2c3": "default",
+    "5ba5ae7f-31c4-4c24-b73b-340ebfa290fb": [
+      "admin-group",
+      "default"
+    ],
+    "5c8d8641-4e5d-4942-96c9-05bd371c7859": [
+      "default",
+      "bot!"
+    ],
+    "5e8e08db-fdd1-46fa-b4b4-1c5fd2ad0526": [
+      "default",
+      "bot!"
+    ],
+    "5effa711-8b4a-4e8a-9a4c-9af502c674eb": [
+      "admin-group",
+      "default"
+    ],
+    "61550c9e-c4d4-44ea-aa6d-509017ee9e87": [
+      "default",
+      "bot!"
+    ],
+    "625328d7-048d-4c50-a7e7-832a786eb4ec": [
+      "default",
+      "bot!"
+    ],
+    "6303381c-b510-4a12-8162-e9d69fec420f": [
+      "default",
+      "bot!"
+    ],
+    "65ccce1f-c2f4-4197-883c-eacd2f3715c7": [
+      "default",
+      "bot!"
+    ],
+    "66520ffb-7403-4023-be80-e4c1f37f9a4c": [
+      "default",
+      "bot!"
+    ],
     "67dcebd3-8441-414b-9db9-52696836c985": "default",
+    "684b8a35-8ec3-47a7-81ef-434e998329de": [
+      "admin-group"
+    ],
+    "69b34e9a-35b8-4f09-b480-ca478faffb0b": [
+      "default",
+      "bot!"
+    ],
+    "6ac9b9ba-0e7f-4fd9-93d7-f1a51936b332": [
+      "default",
+      "bot!"
+    ],
+    "6acaf92c-99d5-40b4-b64b-2b417e8297c9": [
+      "admin-group",
+      "default"
+    ],
+    "6b307a56-cb83-462d-bf8d-5b0581c78eea": [
+      "default",
+      "bot!"
+    ],
+    "6c07fcb2-3eb6-4fa6-a4f1-65bc3c389536": [
+      "admin-group",
+      "default"
+    ],
+    "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6": [
+      "default",
+      "bot!"
+    ],
+    "6ce25c66-8549-466a-b215-f968ef4f15d2": [
+      "default",
+      "bot!"
+    ],
+    "6d007f24-2ab6-4c14-944d-1e302708b7a0": [
+      "default",
+      "bot!"
+    ],
+    "6dee9120-fad1-4b65-8d51-d4bbbbd7dc43": [
+      "default",
+      "bot!"
+    ],
+    "6fb6cbd2-861a-4368-9ef7-27b97036c0af": [
+      "default",
+      "bot!"
+    ],
+    "728babcd-0925-4fde-99e7-82a09b9b85a5": [
+      "admin-group",
+      "default"
+    ],
+    "73ebc33e-2295-4169-8fd2-b3a6d94b7ce1": [
+      "default",
+      "bot!"
+    ],
+    "73f296b9-76b8-43a1-8dc6-0a0d24ab8628": [
+      "default",
+      "bot!"
+    ],
+    "76ac2346-d7ec-48cf-be34-570d4b228b9d": [
+      "default",
+      "bot!"
+    ],
+    "787daca6-d2c7-4426-a500-671797645cfa": [
+      "default",
+      "bot!"
+    ],
+    "7964a438-cf59-4e4b-a3cc-4af5e368be02": [
+      "test"
+    ],
+    "79974fc4-5f92-4615-9334-cafc4c9724ca": [
+      "default",
+      "bot!"
+    ],
+    "7a32ab84-b416-46c5-9074-f4d62587afdf": [
+      "admin-group"
+    ],
+    "7d1c3d25-55c2-41ba-a0eb-65950acdde65": [
+      "default",
+      "bot!"
+    ],
+    "7d505859-2482-4595-936a-d623ac77a2eb": [
+      "admin-group",
+      "default"
+    ],
     "7df79d2a-448c-4967-911d-b7af68a44de2": "default",
+    "7e601c47-b382-44ed-9752-ecb1acf8c2ee": [
+      "default",
+      "bot!"
+    ],
+    "80170dd9-e1b1-4a1b-b8ad-79832f766937": [
+      "default",
+      "bot!"
+    ],
     "809c4b4f-e919-40b4-9bfd-451aa7ac959a": "default",
+    "82ec14d1-3516-4b8e-b6db-e03e6810843b": [
+      "default",
+      "bot!"
+    ],
+    "845ff35d-9082-4a53-9ca0-c9178a6a42cf": [
+      "default",
+      "bot!"
+    ],
+    "85c3a4b6-59f5-4d34-82b5-06eeb36a5881": [
+      "test"
+    ],
+    "8846f4e4-9996-4a2d-ae87-224d5ab4dbf7": [
+      "default",
+      "bot!"
+    ],
     "8bde172c-56bf-4358-943d-5d79023614d9": [
       "admin-group",
       "default"
     ],
+    "90cc767c-c4c4-4e43-8c1d-d980c545cd3e": [
+      "default",
+      "bot!"
+    ],
+    "911408ff-1027-4f41-8c11-87841ee1c280": [
+      "default",
+      "bot!"
+    ],
+    "9363a25b-b5c4-4278-9e7a-dba51432fc8d": [
+      "default",
+      "bot!"
+    ],
+    "936a0988-7991-401c-8c96-d34a0b7459b1": [
+      "default",
+      "bot!"
+    ],
+    "9420135b-0336-4e29-9154-ce8d73b6f1bf": [
+      "admin-group"
+    ],
+    "94b56c26-cac4-4ace-8794-b9505d553767": [
+      "default",
+      "bot!"
+    ],
+    "952bf880-e717-414d-a9d6-1eece099ae99": [
+      "default",
+      "bot!"
+    ],
+    "977209cf-296b-4c15-a82c-cc550892e2f7": [
+      "test"
+    ],
+    "998c6b78-b215-4877-ab3e-5b828e89629b": [
+      "default",
+      "bot!"
+    ],
+    "9baad4e0-860c-4693-a874-a63d0d061b48": [
+      "default",
+      "bot!"
+    ],
     "9c918d10-ba5e-4e7e-afcd-6b57bffeb6bd": "default",
+    "9cd05b2f-870f-42b0-9e4a-df7bd91931b1": [
+      "default",
+      "bot!"
+    ],
     "9f77e6b8-2901-493e-8ee9-ea6eb775d5bb": [
       "admin-group",
       "default"
     ],
-    "aa99e04e-e105-440a-8168-059ec77295ab": "default",
-    "af3cbb3e-2699-4f9f-a022-4621ef778ee4": "default",
+    "9fd8a092-cc58-4efb-b5f3-4d027067b88c": [
+      "default",
+      "bot!"
+    ],
+    "a0a71600-9145-4889-8541-9d9e36072c1c": [
+      "default",
+      "bot!"
+    ],
+    "a2a260d5-1dce-42a6-9b82-c8561dd6a0a9": [
+      "default",
+      "bot!"
+    ],
+    "a2ae24fb-2ef8-4cd3-97bf-408bb3d190f2": [
+      "default",
+      "bot!"
+    ],
+    "a5658e7a-d6a5-4e63-acc1-84838ae31a0a": [
+      "default",
+      "bot!"
+    ],
+    "a603db0a-ef6f-4c22-8399-8a5e36483648": [
+      "admin-group",
+      "default"
+    ],
+    "aa355635-335b-48e1-8fa5-9a61d1b963a7": [
+      "default",
+      "bot!"
+    ],
+    "aba1d4ef-7fb3-4929-9fd9-3102d5e35d58": [
+      "admin-group",
+      "default"
+    ],
+    "ac2536e1-07d5-4d1d-b747-a8f45f65d283": [
+      "default",
+      "bot!"
+    ],
+    "agent-2ef240b4802914a7098a4ad4417e8607": [
+      "admin-group",
+      "default"
+    ],
+    "agent-342c1f003cdbc0c336ef32dcf0f0c74e": [
+      "admin-group",
+      "default"
+    ],
+    "agent-aa104c7218f2182e65652ae8d29e3dee": [
+      "admin-group",
+      "default"
+    ],
+    "b11a134d-080c-4e83-8930-a61b16840240": [
+      "default",
+      "bot!"
+    ],
+    "b2483759-8199-47a2-ad43-4bb2e8bb01fe": [
+      "test"
+    ],
+    "b261e616-34ca-41ff-9af0-837d01502daa": [
+      "test"
+    ],
+    "b8214ea6-8020-48e6-82ea-18aed284e45a": [
+      "default",
+      "bot!"
+    ],
+    "bb0eeadb-9c25-4642-92c1-9f7d3a2ad324": [
+      "default",
+      "bot!"
+    ],
     "bd268de4-005c-4d59-830e-a7a1a58d3b11": [
       "admin-group",
       "default"
@@ -46,23 +508,223 @@
       "admin-group",
       "default"
     ],
-    "be4302d2-8479-4f99-a1a5-f6e28426e5d2": [
-      "default"
-    ],
-    "c0723d8e-77e2-4aee-a9f0-69b4204be2e0": "default",
-    "c629446f-a5e3-4063-b96a-e9fa83b5ff0c": [
+    "bf379bdb-b9c2-4cff-9143-b0f1f1a76c1f": [
       "admin-group",
       "default"
+    ],
+    "bf6a10f4-dc83-4d13-9519-833f293de700": [
+      "default",
+      "bot!"
+    ],
+    "c515fb7c-5889-40ec-96b5-c752d16a7fc1": [
+      "default",
+      "bot!"
+    ],
+    "c5259827-0bba-41c2-8cbc-559ce46b252f": [
+      "admin-group",
+      "default"
+    ],
+    "c60fca1c-bdba-471f-9b08-1665aef178ca": [
+      "admin-group",
+      "default"
+    ],
+    "c6a15856-f3b6-465e-9dbb-46ce81f63900": [
+      "admin-group"
     ],
     "c8c6b4c1-8915-4206-98ba-36fd3cae6f3b": [
       "admin-group",
       "default"
     ],
+    "c91ea3aa-8a8d-4836-9483-1954f92844e0": [
+      "default",
+      "bot!"
+    ],
+    "ca8a2331-b3aa-4d97-95a6-cb761eb99094": [
+      "default",
+      "bot!"
+    ],
+    "cabc70cd-c5e8-4f73-aa82-1715b2bcf982": [
+      "default",
+      "bot!"
+    ],
+    "cb515eea-f5ef-457d-822c-d7764df010bb": [
+      "admin-group",
+      "default"
+    ],
+    "cb8a1f7e-f4d3-43f3-b396-e4841b902807": [
+      "default",
+      "bot!"
+    ],
+    "cdb82677-4bf0-40b5-8e0d-39bf204ba4c7": [
+      "admin-group"
+    ],
+    "ce784088-3ce8-496c-a5ad-d7b0a913e05e": [
+      "default",
+      "bot!"
+    ],
+    "cell-1794542693346-3a950b37": [
+      "default"
+    ],
+    "cell-1794542707799-db38deb4": [
+      "default"
+    ],
+    "cf593a39-c4a2-4d4a-ba06-0993cfee0eed": [
+      "admin-group",
+      "default"
+    ],
+    "d005031a-7ac9-4942-b1f7-2067d6396c38": [
+      "default",
+      "bot!"
+    ],
+    "d086caeb-7a16-44fe-a99d-03a52bc5da98": [
+      "default",
+      "bot!"
+    ],
+    "d2968fdb-db6c-418f-bea4-ecff847a7dbf": [
+      "admin-group"
+    ],
+    "d42b98ce-057e-4ec0-8a87-1fa193d447f8": [
+      "default",
+      "bot!"
+    ],
+    "d5a6563d-c80f-430d-a3c0-39b96704bde3": [
+      "admin-group"
+    ],
+    "d5fefe23-be82-4553-a5bc-57bbaa33d289": [
+      "admin-group",
+      "default"
+    ],
+    "d8e99def-f53f-4981-b473-4e3b7968c933": [
+      "default",
+      "bot!"
+    ],
+    "db8f05dd-bf11-4811-b6c6-f1c83704377d": [
+      "admin-group",
+      "default"
+    ],
+    "dee8b197-4579-422d-b362-dd96a4d13501": [
+      "default",
+      "bot!"
+    ],
+    "e0f02131-56f7-440f-9f01-aff5f02fc505": [
+      "admin-group",
+      "default"
+    ],
+    "e110b0e7-ab9e-4883-97a3-0c94d52822d5": [
+      "default",
+      "bot!"
+    ],
+    "e2e47908-a87f-45ac-a6d9-8ab001c1584e": [
+      "default",
+      "bot!"
+    ],
+    "e30f380f-7523-4452-acec-014cd6e5b0b1": [
+      "default",
+      "bot!"
+    ],
+    "e31f735e-912e-48b0-a350-790dad41548d": [
+      "default",
+      "bot!"
+    ],
     "e4d0307d-1cd2-4513-b6ae-02c70aa3a96f": [
       "admin-group",
       "default"
     ],
+    "e53a5e70-a287-45e6-bd9f-a0b04990edd6": [
+      "default",
+      "bot!"
+    ],
+    "e5670002-ba19-418d-aab1-91c862dbb3e0": [
+      "default",
+      "bot!"
+    ],
+    "e576da92-be8a-4d88-b899-0a0e76dc73eb": [
+      "default",
+      "bot!"
+    ],
+    "e6230be5-2c91-48d6-8d05-fdc2b9489257": [
+      "default",
+      "bot!"
+    ],
+    "e6720356-fe6b-4efe-8749-937fc7633dad": [
+      "default",
+      "bot!"
+    ],
+    "e77c7e7d-12cd-43a7-a4fc-aa68ddfde073": [
+      "default",
+      "bot!"
+    ],
+    "e7839de6-d370-4d3a-8010-79da8d720f82": [
+      "default",
+      "bot!"
+    ],
+    "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5": [
+      "default",
+      "bot!"
+    ],
+    "e9406222-5c79-483c-95a3-fba337e5a161": [
+      "admin-group",
+      "default"
+    ],
+    "ea3cacd7-dfca-47db-9cf4-ccf39262b6f9": [
+      "admin-group",
+      "default"
+    ],
     "ea5abaf4-554d-494d-9bd9-9be5705fc45e": [
+      "admin-group",
+      "default"
+    ],
+    "eaa15c82-0011-478f-8f17-4b5a6b45c532": [
+      "admin-group",
+      "default"
+    ],
+    "eb711744-c79a-4d2c-b98e-3cae88b9ea25": [
+      "admin-group",
+      "default"
+    ],
+    "ebc40430-ab3f-4e66-a370-66ac8c9437ff": [
+      "admin-group",
+      "default"
+    ],
+    "ef4b51d1-9941-4d33-b897-8f87ef3bbf63": [
+      "default",
+      "bot!"
+    ],
+    "f16c1b34-5d22-490c-86fc-5cbfdf52518e": [
+      "admin-group"
+    ],
+    "f414de89-711b-4964-b68f-9a4c593b22b9": [
+      "default",
+      "bot!"
+    ],
+    "f4c33805-0ffe-42d6-9bdb-27b428d5ef79": [
+      "default",
+      "bot!"
+    ],
+    "f7b3f2a6-3711-4517-a8d3-010013dc862f": [
+      "default",
+      "bot!"
+    ],
+    "f8d040f7-1b5a-414a-b98a-9f69ff0daae1": [
+      "test"
+    ],
+    "f9077cfa-5245-44cd-be30-9ec04ca016aa": [
+      "default",
+      "bot!"
+    ],
+    "fa59775a-5299-4f59-b86b-c599c757c64f": [
+      "admin-group",
+      "default"
+    ],
+    "fefbebc7-7556-46db-a872-2808c314cafa": [
+      "admin-group",
+      "default"
+    ],
+    "ff54f550-173d-41b4-bc3e-71357819bbaf": [
+      "admin-group",
+      "default"
+    ],
+    "portfolio-settings": [
       "admin-group",
       "default"
     ]

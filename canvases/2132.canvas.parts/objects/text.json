@@ -1,5 +1,201 @@
 {
   "items": {
+    "09c0800d-cac3-41c9-8603-d69deb91785c": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 550,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "play",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 550,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "70aaabe7-421f-4c05-9cf6-e77f3e96a715",
+        "startedAt": 1794883853735
+      },
+      "animationPriority": 1,
+      "color": "#CBD5E1",
+      "depth": 10,
+      "fontSize": 16,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 152.615385,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "일정을 빽빽하게 채우기보다, 마음에 드는 바다 앞에서\n잠시 차를 세울 수 있는 여백을 남겨두었습니다.\n안전 운전과 함께 여유로운 3박 4일 되세요!",
+      "width": 565.538462,
+      "x": 8804.400769,
+      "y": 7984.582308
+    },
+    "0a8f91d6-4e5a-43ba-bdfe-33c1dc4f5619": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "d6b09a3d-7e31-44ea-a355-1bd758f2dbb1",
+        "startedAt": 1794883846131
+      },
+      "animationPriority": 2,
+      "color": "#334155",
+      "depth": 10,
+      "fontSize": 13,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 60,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "공항 → 함덕 → 월정리 (38km)",
+      "width": 270,
+      "x": 5941.17,
+      "y": 8364.89
+    },
+    "0dbb3bad-20f9-4054-84d2-768c8d718a2c": {
+      "color": "#334155",
+      "depth": 10,
+      "fontSize": 12.5,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 63.230769,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "총 예상 주행거리: 약 240km\n일일 평균 이동 1시간 내외",
+      "width": 287.076923,
+      "x": 6819.631538,
+      "y": 7814.274615
+    },
+    "0ef08c04-e3e2-422a-b449-ccf9d6c49ba9": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "a3f918e2-53c4-4de1-a5af-a87f1d5a45df",
+        "startedAt": 1794883851181
+      },
+      "animationPriority": 1,
+      "color": "#0F172A",
+      "depth": 10,
+      "fontSize": 13.5,
+      "frameId": "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6",
+      "height": 88.769231,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "**1인당 예상 경비: 75만원** (총 150만원)\n항공·숙소는 **출발 3주 전** 얼리버드 확정 기준",
+      "width": 420.923077,
+      "x": 7402.708462,
+      "y": 8328.505385
+    },
+    "107ee667-3ab8-4e69-aff3-2642a9d6d7f4": {
+      "kind": "text",
+      "renderMode": "code",
+      "text": "",
+      "width": 352,
+      "x": 631.161469,
+      "y": 689.449149
+    },
+    "1d69afdc-e54d-48b2-9ecb-f2a30db305ee": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 550,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 550,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "77c08bdf-086c-4408-bdfd-5820e6c2e7ea",
+        "startedAt": 1794883839923
+      },
+      "animationPriority": 1,
+      "color": "#CBD5E1",
+      "depth": 10,
+      "fontSize": 17,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 142.153846,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "성산의 아침 해돋이부터 애월의 붉은 노을까지,\n여유로운 속도로 채우는 힐링 로드트립",
+      "width": 503.384615,
+      "x": 3043.477692,
+      "y": 8053.813077
+    },
+    "1e8207fd-a897-429c-829d-dba842f36f7b": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "659f9605-8f85-44ed-ad6f-5adec66d03c5",
+        "startedAt": 1794883846131
+      },
+      "animationPriority": 2,
+      "color": "#B45309",
+      "depth": 10,
+      "fontSize": 15,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 53.076923,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "Day 3 · 남부 서귀포",
+      "width": 273.692308,
+      "x": 6535.323846,
+      "y": 8329.351538
+    },
     "210bc596-9c3c-44ce-a67c-52d8ce0b5019": {
       "height": 643.364535,
       "kind": "text",
@@ -11,48 +207,264 @@
         "failed": false,
         "language": "cpp",
         "phase": "run",
-        "runId": "1793889139507-210bc596-9c3c-44ce-a67c-52d8ce0b5019",
+        "runId": "1794483129669-210bc596-9c3c-44ce-a67c-52d8ce0b5019",
         "running": false,
         "source": "#include <iostream>\nusing namespace std;\n\nauto main() -> int {\n  int a = 10;\n  cout << \"Hello, world!\\n\" << a << '\\n';\n  cout << \"u r stupid\\n\";\n  return 0;\n}\n\n",
         "status": "success",
-        "updatedAt": 1793889140092
+        "updatedAt": 1794483129885
       },
       "text": "#include <iostream>\nusing namespace std;\n\nauto main() -> int {\n  int a = 10;\n  cout << \"Hello, world!\\n\" << a << '\\n';\n  cout << \"u r stupid\\n\";\n  return 0;\n}\n\n",
       "width": 352,
       "x": -693.748284,
       "y": 58.410198
     },
-    "67dcebd3-8441-414b-9db9-52696836c985": {
-      "cornerStyle": "rounded",
-      "height": 238.964492,
+    "2ca72dfd-75e0-41d6-8afa-6b27739f7f8a": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "9ea470ba-c7df-4b3d-bfb0-9b36819afa91",
+        "startedAt": 1794883842952
+      },
+      "animationPriority": 1,
+      "color": "#B45309",
+      "depth": 10,
+      "fontSize": 12,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 41.861538,
       "kind": "text",
-      "language": "python",
-      "renderMode": "code",
-      "text": "a = input() + input()\n\nprint(a)",
-      "width": 352,
-      "x": 1380.41297,
-      "y": 337.20575
+      "renderMode": "plain",
+      "text": "EAST · 일출 & 오름",
+      "width": 174.153846,
+      "x": 4870.093077,
+      "y": 7962.959231
     },
-    "af3cbb3e-2699-4f9f-a022-4621ef778ee4": {
+    "31cc2eb6-7b92-4cfc-b1f7-daeca00c9b80": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 550,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 550,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "70cb0558-d607-4f33-92a4-8de2e19d0fd3",
+        "startedAt": 1794883842950
+      },
+      "animationPriority": 1,
+      "color": "#1E293B",
+      "depth": 10,
+      "fontSize": 14,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 197.538462,
       "kind": "text",
-      "language": "python",
-      "renderMode": "code",
-      "text": "print(\"test1\")",
-      "width": 352,
-      "x": 248.207082,
-      "y": 134.740502
+      "renderMode": "markdown",
+      "text": "### Day 1–2 · 동부 자연 힐링 코스\n유네스코 세계자연유산 **성산일출봉**과 에메랄드빛 **함덕·우도** 바다를 잇는 일정입니다. 이른 아침 성산 트레킹 후 우도에서 땅콩 아이스크림과 해안 자전거 산책을 즐깁니다.",
+      "width": 557.846154,
+      "x": 4502.246923,
+      "y": 8234.120769
     },
-    "c0723d8e-77e2-4aee-a9f0-69b4204be2e0": {
+    "31cc4610-ab55-41e8-a7c5-67328ceba6a7": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "042663b6-6850-4ede-a805-38c30f0f17e5",
+        "startedAt": 1794883839924
+      },
+      "animationPriority": 2,
+      "color": "#FFFFFF",
+      "depth": 10,
+      "fontSize": 17,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 68.153846,
       "kind": "text",
-      "language": "python",
-      "renderMode": "code",
-      "text": "print(\"test2\")",
-      "width": 352,
-      "x": 200.296602,
-      "y": 429.774927
+      "renderMode": "plain",
+      "text": "인원 · 2인 자유여행",
+      "width": 211.384615,
+      "x": 3797.477692,
+      "y": 8231.813077
     },
-    "c629446f-a5e3-4063-b96a-e9fa83b5ff0c": {
-      "height": 262.40031,
+    "3c0db023-b615-477e-9102-e76ee79ce5ad": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "76acfe82-2f02-4078-903f-653cc497843e",
+        "startedAt": 1794883846131
+      },
+      "animationPriority": 2,
+      "color": "#6D28D9",
+      "depth": 10,
+      "fontSize": 15,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 53.076923,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "Day 4 · 북서 귀가",
+      "width": 273.692308,
+      "x": 6833.323846,
+      "y": 8329.351538
+    },
+    "3f25e6e2-80c7-4375-b3e8-eba0c1b7550c": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "play",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "70aaabe7-421f-4c05-9cf6-e77f3e96a715",
+        "startedAt": 1794883853736
+      },
+      "animationPriority": 1,
+      "color": "#FFFFFF",
+      "depth": 10,
+      "fontSize": 17,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 60.153846,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "날씨 플랜 B (우천 대비)",
+      "width": 371.384615,
+      "x": 8823.477692,
+      "y": 8193.813077
+    },
+    "43b5363b-9442-4f00-bf67-49a02d7bb41d": {
+      "animation": {
+        "delay": 0,
+        "distance": 32,
+        "duration": 600,
+        "easing": "ease-in-out",
+        "effect": "slide-up",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 32,
+          "duration": 600,
+          "easing": "ease-in-out",
+          "effect": "slide-up",
+          "loop": false
+        },
+        "runId": "5392d1e1-3a0d-4fbf-a743-82ed5e623c31",
+        "startedAt": 1794883839922
+      },
+      "animationPriority": 0,
+      "color": "#FFFFFF",
+      "depth": 10,
+      "fontSize": 42,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 212.615385,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "제주 바다를 따라\n걷는 3박 4일",
+      "width": 549.538462,
+      "x": 3020.400769,
+      "y": 7854.582308
+    },
+    "454623d0-3c7d-49f3-92f4-5fffcc78064d": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "662f8118-d413-4807-9997-0a8d84143e61",
+        "startedAt": 1794883842951
+      },
+      "animationPriority": 1,
+      "color": "#334155",
+      "depth": 10,
+      "fontSize": 13,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 225,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "**추천 시간**\n오전 06:30 ~ 14:00\n\n**핵심 스팟**\n- 성산일출봉 정상\n- 섭지코지 해안길\n- 비자림 숲 산책",
+      "width": 204,
+      "x": 4855.17,
+      "y": 8000.89
+    },
+    "464431e0-fc69-4099-90a5-caa5dd825d7e": {
+      "filename": "idea.py",
       "kind": "text",
       "language": "python",
       "renderMode": "code",
@@ -62,14 +474,1094 @@
         "language": "python",
         "phase": "run",
         "running": false,
-        "source": "c: str = input()\na: int = int(input())\nb: str = input()\n\nprint(a, b, c)",
+        "source": "print(\"Hello, \")",
         "status": "success",
-        "updatedAt": 1793889140090
+        "updatedAt": 1794884334998
       },
-      "text": "c: str = input()\na: int = int(input())\nb: str = input()\n\nprint(a, b, c)",
+      "text": "print(\"Hello, \")",
+      "width": 512,
+      "x": 56.855429,
+      "y": 678.146942
+    },
+    "566409d2-9a02-4653-919a-5c4259325fb8": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "154cab0f-5afd-4be7-93c2-dd2f3ee91d2e",
+        "startedAt": 1794883842952
+      },
+      "animationPriority": 2,
+      "color": "#0F766E",
+      "depth": 10,
+      "fontSize": 12,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 41.861538,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "WEST · 노을 & 카페",
+      "width": 174.153846,
+      "x": 5474.093077,
+      "y": 7962.959231
+    },
+    "5aae5b97-76f0-4803-87c3-b01c26629b64": {
+      "color": "#0F172A",
+      "depth": 10,
+      "fontSize": 28,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 99.076923,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "동부의 웅장한 자연 & 서부의 감성 바다",
+      "width": 891.692308,
+      "x": 4469.323846,
+      "y": 7823.351538
+    },
+    "5e8e08db-fdd1-46fa-b4b4-1c5fd2ad0526": {
+      "color": "#5EEAD4",
+      "depth": 10,
+      "fontSize": 12.5,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 43.355769,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "JEJU ISLAND · 2026.05",
+      "width": 223.076923,
+      "x": 3061.631538,
+      "y": 7820.212115
+    },
+    "61550c9e-c4d4-44ea-aa6d-509017ee9e87": {
+      "color": "#64748B",
+      "depth": 10,
+      "fontSize": 14.5,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 50.307692,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "동쪽 → 남쪽 → 서쪽 시계 방향 이동으로 하루 드라이브 시간을 1시간 내외로 줄였습니다.",
+      "width": 946.769231,
+      "x": 4481.785385,
+      "y": 7885.736154
+    },
+    "66520ffb-7403-4023-be80-e4c1f37f9a4c": {
+      "color": "#0F172A",
+      "depth": 10,
+      "fontSize": 28,
+      "frameId": "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6",
+      "height": 99.076923,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "예산 배분 현황 & 필수 체크리스트",
+      "width": 871.692308,
+      "x": 7349.323846,
+      "y": 7823.351538
+    },
+    "67dcebd3-8441-414b-9db9-52696836c985": {
+      "cornerStyle": "rounded",
+      "depth": 12,
+      "height": 238.964492,
+      "kind": "text",
+      "language": "python",
+      "renderMode": "code",
+      "runtimeState": {
+        "completed": true,
+        "failed": false,
+        "language": "python",
+        "phase": "run",
+        "running": false,
+        "source": "a = input() + input()\n\nprint(a, \"Hello, Canvas!\")",
+        "status": "success",
+        "updatedAt": 1794884335159
+      },
+      "text": "a = input() + input()\n\nprint(a, \"Hello, Canvas!\")",
       "width": 352,
-      "x": -698.415098,
-      "y": 1364.675146
+      "x": 1389.551218,
+      "y": 333.581589
+    },
+    "69b34e9a-35b8-4f09-b480-ca478faffb0b": {
+      "color": "#0F172A",
+      "depth": 10,
+      "fontSize": 28,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 99.076923,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "3박 4일 시간대별 상세 일정표",
+      "width": 791.692308,
+      "x": 5909.323846,
+      "y": 7823.351538
+    },
+    "6ac9b9ba-0e7f-4fd9-93d7-f1a51936b332": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "play",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "36b3ee2b-1fdd-42db-bc89-2de6aaa11967",
+        "startedAt": 1794883854976
+      },
+      "animationPriority": 2,
+      "color": "#E2E8F0",
+      "depth": 10,
+      "fontSize": 13.5,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 180.769231,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "- 인수 시 차량 외관 **360도 영상** 촬영\n- 도심 5030 속도제한 및 과속카메라 유의\n- 회전교차로 진입 시 회전 차량 우선\n- EV 대여 시 숙소 충전기 유무 확인",
+      "width": 364.923077,
+      "x": 9222.708462,
+      "y": 8236.505385
+    },
+    "6acaf92c-99d5-40b4-b64b-2b417e8297c9": {
+      "filename": "idea.html",
+      "height": 646.098022,
+      "kind": "text",
+      "language": "html",
+      "renderMode": "code",
+      "text": "<!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>간단한 페이지</title>\n  <link rel=\"stylesheet\" href=\"idea.css\">\n</head>\n<body>\n  <h1>안녕하세요</h1>\n  <p id=\"message\">아래 버튼을 눌러보세요.</p>\n  <button id=\"btn\">클릭</button>\n\n  <script src=\"idea.js\"></script>\n</body>\n</html>",
+      "width": 710.276929,
+      "x": -972.959599,
+      "y": 8023.393341
+    },
+    "6b307a56-cb83-462d-bf8d-5b0581c78eea": {
+      "color": "#94A3B8",
+      "depth": 10,
+      "fontSize": 11.5,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 41.692308,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "01 / 05  ·  JEJU TRAVEL PLANNER  ·  Space 키를 눌러 발표를 진행하세요",
+      "width": 641.230769,
+      "x": 3048.554615,
+      "y": 8438.043846
+    },
+    "6d007f24-2ab6-4c14-944d-1e302708b7a0": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "11a83859-fe00-44b2-a9bd-eec830187a62",
+        "startedAt": 1794883846132
+      },
+      "animationPriority": 2,
+      "color": "#0369A1",
+      "depth": 10,
+      "fontSize": 15,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 53.076923,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "Day 1 · 북동 해안",
+      "width": 273.692308,
+      "x": 5939.323846,
+      "y": 8329.351538
+    },
+    "6dee9120-fad1-4b65-8d51-d4bbbbd7dc43": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "855338d0-7369-43d3-a6f7-ef361c7fbb48",
+        "startedAt": 1794883839922
+      },
+      "animationPriority": 2,
+      "color": "#CBD5E1",
+      "depth": 10,
+      "fontSize": 13.5,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 126.769231,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "렌터카 드라이브 중심\n자연·미식·카페 균형",
+      "width": 204.923077,
+      "x": 3800.708462,
+      "y": 8282.505385
+    },
+    "73f296b9-76b8-43a1-8dc6-0a0d24ab8628": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "play",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "ce28aff6-e83f-494e-be3a-208a447f24e2",
+        "startedAt": 1794883856200
+      },
+      "animationPriority": 3,
+      "color": "#FFFFFF",
+      "depth": 10,
+      "fontSize": 17,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 60.153846,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "비상 안내 & 협업 공유",
+      "width": 371.384615,
+      "x": 9615.477692,
+      "y": 8193.813077
+    },
+    "76ac2346-d7ec-48cf-be34-570d4b228b9d": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "1e3e8a15-b425-424d-bd7a-76bddc0d7dc3",
+        "startedAt": 1794883846132
+      },
+      "animationPriority": 2,
+      "color": "#0F766E",
+      "depth": 10,
+      "fontSize": 15,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 53.076923,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "Day 2 · 성산 & 우도",
+      "width": 273.692308,
+      "x": 6237.323846,
+      "y": 8329.351538
+    },
+    "787daca6-d2c7-4426-a500-671797645cfa": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "6a369e03-24e3-4e89-8eb9-e879ad046fad",
+        "startedAt": 1794883846132
+      },
+      "animationPriority": 2,
+      "color": "#334155",
+      "depth": 10,
+      "fontSize": 13,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 60,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "애월 → 이호테우 → 공항 (56km)",
+      "width": 270,
+      "x": 6835.17,
+      "y": 8364.89
+    },
+    "7d1c3d25-55c2-41ba-a0eb-65950acdde65": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "play",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "ce28aff6-e83f-494e-be3a-208a447f24e2",
+        "startedAt": 1794883856200
+      },
+      "animationPriority": 3,
+      "color": "#E2E8F0",
+      "depth": 10,
+      "fontSize": 13.5,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 180.769231,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "- 제주 관광 통역·안내: **1330** (24시)\n- 제주공항 고객센터: **1661-2626**\n- 우도 배편 결항 확인: 성산포항\n- 가고 싶은 스팟은 보드에 메모 추가!",
+      "width": 364.923077,
+      "x": 9618.708462,
+      "y": 8236.505385
+    },
+    "7d505859-2482-4595-936a-d623ac77a2eb": {
+      "filename": "idea.cpp",
+      "kind": "text",
+      "language": "cpp",
+      "renderMode": "code",
+      "runtimeState": {
+        "completed": true,
+        "failed": false,
+        "language": "cpp",
+        "phase": "run",
+        "running": false,
+        "source": "#include <iostream>\n\nint main() {\n  std::cout << \"World!\" << std::endl;\n  return 0;\n}",
+        "status": "success",
+        "updatedAt": 1794884335080
+      },
+      "text": "#include <iostream>\n\nint main() {\n  std::cout << \"World!\" << std::endl;\n  return 0;\n}",
+      "width": 512,
+      "x": 89.239493,
+      "y": 295.104827
+    },
+    "7e601c47-b382-44ed-9752-ecb1acf8c2ee": {
+      "color": "#94A3B8",
+      "depth": 10,
+      "fontSize": 11.5,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 41.692308,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "05 / 05  ·  Thank you! 즐거운 제주 여행 되세요  ·  Created with agora_canvas Python SDK",
+      "width": 741.230769,
+      "x": 8808.554615,
+      "y": 8438.043846
+    },
+    "845ff35d-9082-4a53-9ca0-c9178a6a42cf": {
+      "color": "#94A3B8",
+      "depth": 10,
+      "fontSize": 11.5,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 41.692308,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "02 / 05  ·  핵심 권역 비교",
+      "width": 441.230769,
+      "x": 4484.554615,
+      "y": 8442.043846
+    },
+    "911408ff-1027-4f41-8c11-87841ee1c280": {
+      "animation": {
+        "delay": 0,
+        "distance": 28,
+        "duration": 600,
+        "easing": "ease-in-out",
+        "effect": "slide-up",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "play",
+        "config": {
+          "delay": 0,
+          "distance": 28,
+          "duration": 600,
+          "easing": "ease-in-out",
+          "effect": "slide-up",
+          "loop": false
+        },
+        "runId": "67c7133f-0d75-444b-acbe-261dd4d87d9f",
+        "startedAt": 1794883852331
+      },
+      "animationPriority": 0,
+      "color": "#FFFFFF",
+      "depth": 10,
+      "fontSize": 35,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 183.846154,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "노을 지는 해안도로에서\n완성되는 제주 여행",
+      "width": 600.615385,
+      "x": 8786.862308,
+      "y": 7837.966923
+    },
+    "936a0988-7991-401c-8c96-d34a0b7459b1": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 550,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 550,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "a95cf195-c4f2-4030-87f1-bec0eecc79a1",
+        "startedAt": 1794883839924
+      },
+      "animationPriority": 1,
+      "color": "#E2E8F0",
+      "depth": 10,
+      "fontSize": 14,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 201.538462,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "### 이번 여행 핵심 루트 (시계 방향 일주)\n- **Day 1** 제주공항 → 함덕 해수욕장 → 월정리\n- **Day 2** 성산일출봉 → 우도 산책 → 표선\n- **Day 3** 서귀포 올레시장 → 주상절리 → 중문\n- **Day 4** 애월 카페거리 → 한담해변 → 공항",
+      "width": 453.846154,
+      "x": 3068.246923,
+      "y": 8212.120769
+    },
+    "94b56c26-cac4-4ace-8794-b9505d553767": {
+      "color": "#15803D",
+      "depth": 10,
+      "fontSize": 12,
+      "frameId": "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6",
+      "height": 41.861538,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "04 · BUDGET & CHECKLIST",
+      "width": 198.153846,
+      "x": 7378.093077,
+      "y": 7802.959231
+    },
+    "a2a260d5-1dce-42a6-9b82-c8561dd6a0a9": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "21b419ab-eb8c-4e72-bb97-4dfd0d092061",
+        "startedAt": 1794883851182
+      },
+      "animationPriority": 2,
+      "color": "#1E293B",
+      "depth": 10,
+      "fontSize": 12.5,
+      "frameId": "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6",
+      "height": 497.230769,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "### 항목별 산정 기준\n- **숙박 (45만원 · 30%)**\n  1박 평균 15만원 (동부 2박 · 서부 1박)\n- **식비 · 카페 (36만원 · 24%)**\n  흑돼지·회 2회 + 오션뷰 카페 1일 1곳\n- **항공권 (32만원 · 21%)**\n  김포↔제주 왕복 2인 평일 특가\n- **렌터카 · 주유 (18만원 · 12%)**\n  중형 SUV 3일 완전자차 기준\n- **체험 · 입장 (14만원 · 9%)**\n  우도 배편 · 카멜리아힐 · 투명카약\n- **예비비 (5만원 · 3%)**\n  기념품 및 비상 지출 예비금",
+      "width": 331.076923,
+      "x": 7883.631538,
+      "y": 7931.274615
+    },
+    "aba1d4ef-7fb3-4929-9fd9-3102d5e35d58": {
+      "filename": "merge_sort.py",
+      "height": 993.632573,
+      "kind": "text",
+      "language": "python",
+      "renderMode": "code",
+      "runtimeState": {
+        "built": false,
+        "completed": true,
+        "failed": false,
+        "language": "python",
+        "phase": "run",
+        "runId": "1794754357597-aba1d4ef-7fb3-4929-9fd9-3102d5e35d58",
+        "running": false,
+        "source": "def merge_sort(arr):\n    \"\"\"배열을 오름차순으로 정렬하는 병합 정렬 (재귀 구현)\"\"\"\n    if len(arr) <= 1:\n        return arr\n\n    # 중간 지점에서 배열을 둘로 분할\n    mid = len(arr) // 2\n    left = merge_sort(arr[:mid])\n    right = merge_sort(arr[mid:])\n\n    # 정렬된 두 부분 배열을 병합\n    return merge(left, right)\n\n\ndef merge(left, right):\n    \"\"\"정렬된 두 리스트를 하나의 정렬된 리스트로 병합\"\"\"\n    result = []\n    i = j = 0\n\n    while i < len(left) and j < len(right):\n        if left[i] <= right[j]:\n            result.append(left[i])\n            i += 1\n        else:\n            result.append(right[j])\n            j += 1\n\n    # 남은 요소들 추가\n    result.extend(left[i:])\n    result.extend(right[j:])\n\n    return result\n\n\nif __name__ == \"__main__\":\n    sample = [5, 2, 9, 1, 5, 6, -3]\n    print(\"정렬 전:\", sample)\n    print(\"정렬 후:\", merge_sort(sample))\n",
+        "status": "success",
+        "updatedAt": 1794754359753
+      },
+      "text": "def merge_sort(arr):\n    \"\"\"배열을 오름차순으로 정렬하는 병합 정렬 (재귀 구현)\"\"\"\n    if len(arr) <= 1:\n        return arr\n\n    # 중간 지점에서 배열을 둘로 분할\n    mid = len(arr) // 2\n    left = merge_sort(arr[:mid])\n    right = merge_sort(arr[mid:])\n\n    # 정렬된 두 부분 배열을 병합\n    return merge(left, right)\n\n\ndef merge(left, right):\n    \"\"\"정렬된 두 리스트를 하나의 정렬된 리스트로 병합\"\"\"\n    result = []\n    i = j = 0\n\n    while i < len(left) and j < len(right):\n        if left[i] <= right[j]:\n            result.append(left[i])\n            i += 1\n        else:\n            result.append(right[j])\n            j += 1\n\n    # 남은 요소들 추가\n    result.extend(left[i:])\n    result.extend(right[j:])\n\n    return result\n\n\nif __name__ == \"__main__\":\n    sample = [5, 2, 9, 1, 5, 6, -3]\n    print(\"정렬 전:\", sample)\n    print(\"정렬 후:\", merge_sort(sample))\n",
+      "width": 720,
+      "x": 3082.395453,
+      "y": 6340.584627
+    },
+    "agent-2ef240b4802914a7098a4ad4417e8607": {
+      "filename": "index.html",
+      "height": 400,
+      "kind": "text",
+      "language": "html",
+      "renderMode": "code",
+      "text": "<!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>간단한 예제</title>\n  <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n  <h1>안녕하세요, HTML!</h1>\n  <button id=\"btn\">클릭하세요</button>\n  <p id=\"msg\" class=\"message\">버튼을 누르면 인사가 표시됩니다.</p>\n\n  <script src=\"script.js\"></script>\n</body>\n</html>\n",
+      "width": 720,
+      "x": 770.278429,
+      "y": 8527.119078
+    },
+    "agent-342c1f003cdbc0c336ef32dcf0f0c74e": {
+      "cornerStyle": "rounded",
+      "filename": "script.js",
+      "height": 320,
+      "kind": "text",
+      "language": "javascript",
+      "renderMode": "code",
+      "text": "/* 동작 분리 파일: script.js */\nconst btn = document.getElementById('btn');\nconst msg = document.getElementById('msg');\n\ngreeting();\n\nfunction greeting() {\n  msg.textContent = '버튼을 눌렀습니다! 👋';\n}\n\nbtn.addEventListener('click', greeting);\n",
+      "width": 720,
+      "x": -69.975468,
+      "y": 8534.959479
+    },
+    "agent-aa104c7218f2182e65652ae8d29e3dee": {
+      "cornerStyle": "rounded",
+      "filename": "style.css",
+      "height": 320,
+      "kind": "text",
+      "language": "css",
+      "renderMode": "code",
+      "text": "/* 스타일 분리 파일: style.css */\nbody {\n  font-family: sans-serif;\n  margin: 2rem;\n  text-align: center;\n}\n\nh1 {\n  color: #333;\n}\n\nbutton {\n  padding: 0.5rem 1rem;\n  cursor: pointer;\n}\n\n.message {\n  color: #555;\n}\n",
+      "width": 720,
+      "x": 744.385492,
+      "y": 8103.305958
+    },
+    "b261e616-34ca-41ff-9af0-837d01502daa": {
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "asd",
+      "width": 352,
+      "x": 888.532557,
+      "y": 375.446521
+    },
+    "bf379bdb-b9c2-4cff-9143-b0f1f1a76c1f": {
+      "filename": "idea.js",
+      "kind": "text",
+      "language": "javascript",
+      "renderMode": "code",
+      "text": "let count = 0;\n\nconst button = document.getElementById(\"btn\");\nconst message = document.getElementById(\"message\");\n\nbutton.addEventListener(\"click\", () => {\n  count += 1;\n  message.textContent = `버튼을 ${count}번 눌렀습니다.`;\n});",
+      "width": 512,
+      "x": -847.432776,
+      "y": 7647.137127
+    },
+    "c5259827-0bba-41c2-8cbc-559ce46b252f": {
+      "filename": "idea.css",
+      "kind": "text",
+      "language": "css",
+      "renderMode": "code",
+      "text": "body {\n  font-family: sans-serif;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  min-height: 100vh;\n  margin: 0;\n  background-color: #f4f4f4;\n  color: #333;\n}\n\nh1 {\n  color: #2c3e50;\n}\n\nbutton {\n  padding: 8px 16px;\n  font-size: 16px;\n  border: none;\n  border-radius: 6px;\n  background-color: #3498db;\n  color: white;\n  cursor: pointer;\n}\n\nbutton:hover {\n  background-color: #2980b9;\n}\n\n#message {\n  margin: 16px 0;\n}",
+      "width": 512,
+      "x": -120.741741,
+      "y": 7477.761139
+    },
+    "c91ea3aa-8a8d-4836-9483-1954f92844e0": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "407b8cf1-e260-4b45-be32-a96599335b85",
+        "startedAt": 1794883846131
+      },
+      "animationPriority": 2,
+      "color": "#334155",
+      "depth": 10,
+      "fontSize": 13,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 60,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "성산 → 우도 → 표선 (54km)",
+      "width": 270,
+      "x": 6239.17,
+      "y": 8364.89
+    },
+    "cb8a1f7e-f4d3-43f3-b396-e4841b902807": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "5e02ca50-3ebe-4893-9767-d3a1d49acb41",
+        "startedAt": 1794883839923
+      },
+      "animationPriority": 2,
+      "color": "#CBD5E1",
+      "depth": 10,
+      "fontSize": 13.5,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 126.769231,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "05.14(목) – 05.17(일)\n오전 도착 · 저녁 복귀",
+      "width": 204.923077,
+      "x": 3572.708462,
+      "y": 8282.505385
+    },
+    "ce784088-3ce8-496c-a5ad-d7b0a913e05e": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "c36ad51d-efc7-4a6b-9f18-465f64491caa",
+        "startedAt": 1794883846131
+      },
+      "animationPriority": 2,
+      "color": "#334155",
+      "depth": 10,
+      "fontSize": 13,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 60,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "표선 → 중문 → 애월 (92km)",
+      "width": 270,
+      "x": 6537.17,
+      "y": 8364.89
+    },
+    "cell-1794542693346-3a950b37": {
+      "filename": "irade/cell-1794542693346-3a950b37.md",
+      "format": "markdown",
+      "frameOrder": 40,
+      "kind": "text",
+      "locked": false,
+      "renderMode": "irade-agent",
+      "text": "# 연구 대화\n\n## 사용자\n연구할 질문과 배경을 기록하세요.\n\n## 에이전트\n에이전트와 나눈 응답을 여기에 보관하세요.\n",
+      "title": "연구 대화",
+      "x": 41.653013,
+      "y": -105.116804
+    },
+    "d086caeb-7a16-44fe-a99d-03a52bc5da98": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 550,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 550,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "c32bd04c-6ac6-4451-ba5a-d5f30100a644",
+        "startedAt": 1794883842952
+      },
+      "animationPriority": 2,
+      "color": "#1E293B",
+      "depth": 10,
+      "fontSize": 14,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 197.538462,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "### Day 3–4 · 서부 오션뷰 & 감성 미식\n투명 카약 체험과 **애월 카페거리**의 한라봉 에이드로 쉬어가는 후반부 코스입니다. 귀가 전 마지막 오후에는 **해안도로 노을 드라이브**로 여행의 여운을 남깁니다.",
+      "width": 557.846154,
+      "x": 5106.246923,
+      "y": 8234.120769
+    },
+    "d5fefe23-be82-4553-a5bc-57bbaa33d289": {
+      "brush": "",
+      "filename": "idea.py",
+      "height": 348.997232,
+      "kind": "text",
+      "language": "python",
+      "renderMode": "code",
+      "text": "",
+      "width": 512,
+      "x": 1594.289931,
+      "y": 7298.846453
+    },
+    "dee8b197-4579-422d-b362-dd96a4d13501": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "c96211ee-f13a-48f6-8768-9d18d9a2f816",
+        "startedAt": 1794883839924
+      },
+      "animationPriority": 3,
+      "color": "#CBD5E1",
+      "depth": 10,
+      "fontSize": 13.5,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 126.769231,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "1인당 약 75만원\n항공·숙소·식비 포함",
+      "width": 204.923077,
+      "x": 4028.708462,
+      "y": 8282.505385
+    },
+    "e110b0e7-ab9e-4883-97a3-0c94d52822d5": {
+      "color": "#0F766E",
+      "depth": 10,
+      "fontSize": 12,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 41.861538,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "02 · HIGHLIGHTS",
+      "width": 160.153846,
+      "x": 4498.093077,
+      "y": 7802.959231
+    },
+    "e2e47908-a87f-45ac-a6d9-8ab001c1584e": {
+      "color": "#94A3B8",
+      "depth": 10,
+      "fontSize": 11.5,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 41.692308,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "03 / 05  ·  3박 4일 상세 일정표",
+      "width": 441.230769,
+      "x": 5924.554615,
+      "y": 8442.043846
+    },
+    "e53a5e70-a287-45e6-bd9f-a0b04990edd6": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "play",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "70aaabe7-421f-4c05-9cf6-e77f3e96a715",
+        "startedAt": 1794883853736
+      },
+      "animationPriority": 1,
+      "color": "#E2E8F0",
+      "depth": 10,
+      "fontSize": 13.5,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 180.769231,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "- 강풍·비 소식 시 해변 일정 대신\n  **아르떼뮤지엄 · 본태박물관** 전환\n- 한라산 안개 시 해안도로 위주 이동\n- 전날 저녁 기상청 예보 최종 확인",
+      "width": 364.923077,
+      "x": 8826.708462,
+      "y": 8236.505385
+    },
+    "e5670002-ba19-418d-aab1-91c862dbb3e0": {
+      "color": "#B45309",
+      "depth": 10,
+      "fontSize": 12,
+      "frameId": "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5",
+      "height": 41.861538,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "03 · ITINERARY",
+      "width": 152.153846,
+      "x": 5938.093077,
+      "y": 7802.959231
+    },
+    "e576da92-be8a-4d88-b899-0a0e76dc73eb": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "64052c64-36ec-4639-a8a8-5edf25427cf8",
+        "startedAt": 1794883839923
+      },
+      "animationPriority": 3,
+      "color": "#FFFFFF",
+      "depth": 10,
+      "fontSize": 17,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 68.153846,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "예산 · 총 150만원",
+      "width": 211.384615,
+      "x": 4025.477692,
+      "y": 8231.813077
+    },
+    "e77c7e7d-12cd-43a7-a4fc-aa68ddfde073": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "f13c4145-fcca-46e5-a4a9-3ed03954e32b",
+        "startedAt": 1794883842950
+      },
+      "animationPriority": 2,
+      "color": "#334155",
+      "depth": 10,
+      "fontSize": 13,
+      "frameId": "1ad85847-58e9-4412-9ed7-48da20f5d8af",
+      "height": 225,
+      "kind": "text",
+      "renderMode": "markdown",
+      "text": "**추천 시간**\n오후 15:00 ~ 일몰\n\n**핵심 스팟**\n- 애월 한담해안산책로\n- 오션뷰 브런치 카페\n- 신창 풍차해안도로",
+      "width": 204,
+      "x": 5459.17,
+      "y": 8000.89
+    },
+    "ef4b51d1-9941-4d33-b897-8f87ef3bbf63": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 450,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "play",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 450,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "36b3ee2b-1fdd-42db-bc89-2de6aaa11967",
+        "startedAt": 1794883854977
+      },
+      "animationPriority": 2,
+      "color": "#FFFFFF",
+      "depth": 10,
+      "fontSize": 17,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 60.153846,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "렌터카 · 도로 안전 수칙",
+      "width": 371.384615,
+      "x": 9219.477692,
+      "y": 8193.813077
+    },
+    "f414de89-711b-4964-b68f-9a4c593b22b9": {
+      "color": "#94A3B8",
+      "depth": 10,
+      "fontSize": 11.5,
+      "frameId": "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6",
+      "height": 41.692308,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "04 / 05  ·  예산 분석 및 체크리스트",
+      "width": 441.230769,
+      "x": 7364.554615,
+      "y": 8442.043846
+    },
+    "f4c33805-0ffe-42d6-9bdb-27b428d5ef79": {
+      "color": "#FDBA74",
+      "depth": 10,
+      "fontSize": 12,
+      "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+      "height": 41.861538,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "05 · TRAVEL TIPS",
+      "width": 180.153846,
+      "x": 8822.093077,
+      "y": 7811.959231
+    },
+    "f9077cfa-5245-44cd-be30-9ec04ca016aa": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 500,
+        "easing": "ease-in-out",
+        "effect": "fade",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "effect": "fade",
+          "loop": false
+        },
+        "runId": "6bff0667-ba86-4c87-9d74-359959dde3bc",
+        "startedAt": 1794883839924
+      },
+      "animationPriority": 2,
+      "color": "#FFFFFF",
+      "depth": 10,
+      "fontSize": 17,
+      "frameId": "5c8d8641-4e5d-4942-96c9-05bd371c7859",
+      "height": 68.153846,
+      "kind": "text",
+      "renderMode": "plain",
+      "text": "일정 · 3박 4일",
+      "width": 211.384615,
+      "x": 3569.477692,
+      "y": 8231.813077
     }
   }
 }

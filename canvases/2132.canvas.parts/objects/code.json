@@ -1,0 +1,16 @@
+{
+  "items": {
+    "cell-1794542707799-db38deb4": {
+      "code": "# 새로운 실험\n\ndef square(n):\n    return n * n\n\nvalues = [square(n) for n in range(6)]\nprint(\"Squares:\", values)\n",
+      "filename": "irade/cell-1794542707799-db38deb4.py",
+      "frameOrder": 80,
+      "kind": "code",
+      "language": "python",
+      "locked": false,
+      "renderMode": "irade-python",
+      "title": "새로운 실험",
+      "x": 152.809209,
+      "y": -579.280531
+    }
+  }
+}

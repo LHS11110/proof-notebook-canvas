@@ -2,11 +2,19 @@
   "format": "frelog.canvas.repository",
   "metadata": {},
   "objects": {
+    "chart": "canvases/2132.canvas.parts/objects/chart.json",
+    "code": "canvases/2132.canvas.parts/objects/code.json",
     "connector": "canvases/2132.canvas.parts/objects/connector.json",
+    "frame": "canvases/2132.canvas.parts/objects/frame.json",
+    "image": "canvases/2132.canvas.parts/objects/image.json",
+    "link": "canvases/2132.canvas.parts/objects/link.json",
+    "note": "canvases/2132.canvas.parts/objects/note.json",
+    "portfolio": "canvases/2132.canvas.parts/objects/portfolio.json",
     "shape": "canvases/2132.canvas.parts/objects/shape.json",
     "stroke": "canvases/2132.canvas.parts/objects/stroke.json",
     "table": "canvases/2132.canvas.parts/objects/table.json",
-    "text": "canvases/2132.canvas.parts/objects/text.json"
+    "text": "canvases/2132.canvas.parts/objects/text.json",
+    "user-group": "canvases/2132.canvas.parts/objects/user-group.json"
   },
   "permissions": "canvases/2132.canvas.parts/permissions.json",
   "version": 2

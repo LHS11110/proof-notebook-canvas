@@ -1,0 +1,21 @@
+{
+  "items": {
+    "portfolio-settings": {
+      "height": 10,
+      "kind": "portfolio",
+      "portfolioCursor": {
+        "frameId": "625328d7-048d-4c50-a7e7-832a786eb4ec",
+        "previousRunId": "36b3ee2b-1fdd-42db-bc89-2de6aaa11967",
+        "runId": "ce28aff6-e83f-494e-be3a-208a447f24e2",
+        "startedAt": 1794883856200,
+        "step": 4
+      },
+      "portfolioDescription": "",
+      "portfolioPages": [],
+      "title": "포트폴리오 테스트",
+      "width": 16,
+      "x": 0,
+      "y": 0
+    }
+  }
+}

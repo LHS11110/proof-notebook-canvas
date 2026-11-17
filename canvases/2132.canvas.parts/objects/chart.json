@@ -1,0 +1,68 @@
+{
+  "items": {
+    "a2ae24fb-2ef8-4cd3-97bf-408bb3d190f2": {
+      "animation": {
+        "delay": 0,
+        "distance": 36,
+        "duration": 600,
+        "easing": "ease-in-out",
+        "effect": "zoom",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 36,
+          "duration": 600,
+          "easing": "ease-in-out",
+          "effect": "zoom",
+          "loop": false
+        },
+        "runId": "7871a4c4-7a19-45d5-8012-7f1489dff8f9",
+        "startedAt": 1794883851182
+      },
+      "animationPriority": 1,
+      "chartType": "donut",
+      "columns": [
+        "항목",
+        "금액(만원)"
+      ],
+      "depth": 6,
+      "fontSize": 11,
+      "frameId": "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6",
+      "height": 378,
+      "kind": "chart",
+      "rows": [
+        [
+          "숙박(3박)",
+          "45"
+        ],
+        [
+          "식비·카페",
+          "36"
+        ],
+        [
+          "항공(왕복)",
+          "32"
+        ],
+        [
+          "렌터카·주유",
+          "18"
+        ],
+        [
+          "액티비티",
+          "14"
+        ],
+        [
+          "예비비",
+          "5"
+        ]
+      ],
+      "title": "2인 총 예산 150만원 배분 (단위: 만원)",
+      "width": 444,
+      "x": 7391.17,
+      "y": 7934.89
+    }
+  }
+}

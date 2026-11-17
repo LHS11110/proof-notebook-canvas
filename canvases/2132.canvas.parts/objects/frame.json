@@ -1,0 +1,121 @@
+{
+  "items": {
+    "0c792fe1-315d-4d8f-b356-01104dbf6456": {
+      "depth": -1000,
+      "fill": "#ffffff",
+      "frameOrder": 6135,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "",
+      "title": "프레임 2",
+      "width": 1280,
+      "x": -1565.174679,
+      "y": 2837.322
+    },
+    "1ad85847-58e9-4412-9ed7-48da20f5d8af": {
+      "depth": -1000,
+      "fill": "#F8FAFC",
+      "frameOrder": 20002,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "전반부(동부: 성산·우도)와 후반부(서부: 애월·신창)의 분위기 차이와 핵심 추천 시간대를 짚어줍니다.",
+      "title": "02. 핵심 권역 및 스팟",
+      "width": 1280,
+      "x": 4443.17,
+      "y": 7768.89
+    },
+    "1ef920b5-6aa0-45bb-a9e2-b542b5437ed4": {
+      "depth": -1000,
+      "fill": "#ffffff",
+      "frameOrder": 10671,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "",
+      "title": "프레임",
+      "width": 1280,
+      "x": -2958.82464,
+      "y": 3790.776787
+    },
+    "2a3ca19f-2c23-434e-9430-c9c7ce6da75d": {
+      "depth": -1000,
+      "fill": "#ffffff",
+      "frameOrder": 12193,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "",
+      "title": "프레임 3",
+      "width": 1280,
+      "x": -1561.762343,
+      "y": 3798.650703
+    },
+    "5c8d8641-4e5d-4942-96c9-05bd371c7859": {
+      "depth": -1000,
+      "fill": "#F8FAFC",
+      "frameOrder": 20001,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "전체 3박 4일 제주 로드트립의 목표, 일정(5/14~5/17), 인원(2인) 및 예상 총 예산을 소개하는 오프닝 슬라이드입니다.",
+      "title": "01. 제주 3박 4일 여행 표지",
+      "width": 1280,
+      "x": 3003.17,
+      "y": 7768.89
+    },
+    "5effa711-8b4a-4e8a-9a4c-9af502c674eb": {
+      "depth": -1000,
+      "fill": "#ffffff",
+      "frameOrder": 4811,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "",
+      "title": "프레임 1",
+      "width": 1280,
+      "x": -2982.143705,
+      "y": 2838.250181
+    },
+    "625328d7-048d-4c50-a7e7-832a786eb4ec": {
+      "depth": -1000,
+      "fill": "#F8FAFC",
+      "frameOrder": 20005,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "우천 플랜 B, 제주 운전 유의사항, 비상 연락처를 정리한 마무리 슬라이드입니다.",
+      "title": "05. 실전 팁 및 마무리",
+      "width": 1280,
+      "x": 8763.17,
+      "y": 7768.89
+    },
+    "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6": {
+      "depth": -1000,
+      "fill": "#F8FAFC",
+      "frameOrder": 20004,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "총 예산 150만원(2인 기준) 항목별 배분 차트와 출발 전 꼭 챙겨야 할 준비물 포스트잇입니다.",
+      "title": "04. 예산 분석 및 준비물",
+      "width": 1280,
+      "x": 7323.17,
+      "y": 7768.89
+    },
+    "e7f8f5c8-6dcc-416f-865a-1c2d060ce9d5": {
+      "depth": -1000,
+      "fill": "#F8FAFC",
+      "frameOrder": 20003,
+      "height": 720,
+      "kind": "frame",
+      "rotation": 0,
+      "text": "시간대별 세부 타임테이블과 일차별 총 주행거리입니다. 우도 배편과 중문 체험은 출발 전 예약을 권장합니다.",
+      "title": "03. 3박 4일 상세 일정표",
+      "width": 1280,
+      "x": 5883.17,
+      "y": 7768.89
+    }
+  }
+}

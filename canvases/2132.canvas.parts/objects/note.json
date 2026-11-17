@@ -1,0 +1,76 @@
+{
+  "items": {
+    "1f7d3eed-4786-4b0b-a501-3610d8010648": {
+      "animation": {
+        "delay": 0,
+        "distance": 32,
+        "duration": 550,
+        "easing": "ease-in-out",
+        "effect": "slide-left",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 32,
+          "duration": 550,
+          "easing": "ease-in-out",
+          "effect": "slide-left",
+          "loop": false
+        },
+        "runId": "49bbb0b9-e408-488d-8163-bbf57794c897",
+        "startedAt": 1794883851181
+      },
+      "animationPriority": 3,
+      "color": "#BAE6FD",
+      "depth": 8,
+      "fontSize": 12.5,
+      "frameId": "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6",
+      "height": 242,
+      "kind": "note",
+      "rotation": 1.5,
+      "shadowEnabled": true,
+      "text": "### 사전 예약 & 유용한 앱\n- **마음샌드** 공항 픽업 앱 예약\n- **캐치테이블** 인기 맛집 원격 줄서기\n- **티맵 / 카카오맵** 주차장 즐겨찾기\n- 우도 승선 시 **신분증 2인 모두 지참**",
+      "width": 302,
+      "x": 8249.17,
+      "y": 8188.89
+    },
+    "73ebc33e-2295-4169-8fd2-b3a6d94b7ce1": {
+      "animation": {
+        "delay": 0,
+        "distance": 32,
+        "duration": 550,
+        "easing": "ease-in-out",
+        "effect": "slide-left",
+        "loop": false
+      },
+      "animationPlayback": {
+        "action": "stop",
+        "config": {
+          "delay": 0,
+          "distance": 32,
+          "duration": 550,
+          "easing": "ease-in-out",
+          "effect": "slide-left",
+          "loop": false
+        },
+        "runId": "955e704b-001c-4175-8050-34abf31a2951",
+        "startedAt": 1794883851182
+      },
+      "animationPriority": 3,
+      "color": "#FEF08A",
+      "depth": 8,
+      "fontSize": 12.5,
+      "frameId": "6ca87b27-7a4e-466c-aca0-9fd0c8bc93f6",
+      "height": 236,
+      "kind": "note",
+      "rotation": -1.5,
+      "shadowEnabled": true,
+      "text": "### 필수 준비물 체크\n- 운전면허증 & 신분증 원본\n- 얇은 바람막이 (바닷바람 대비)\n- 선글라스 · 자외선 차단제\n- 차량용 고속 충전기 & 거치대\n- 편한 운동화 (성산·올레길)",
+      "width": 302,
+      "x": 8249.17,
+      "y": 7924.89
+    }
+  }
+}

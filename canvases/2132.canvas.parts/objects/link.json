@@ -1,0 +1,61 @@
+{
+  "items": {
+    "0b4a1a51-ff8c-4c2a-89fc-c6028e2ab62b": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mWsWwTMA-zM",
+      "height": 360,
+      "kind": "link",
+      "mediaType": "youtube",
+      "title": "YouTube 동영상",
+      "url": "https://www.youtube.com/watch?v=mWsWwTMA-zM",
+      "width": 576,
+      "x": -840.728784,
+      "y": 1340.140451
+    },
+    "59ce7dcc-78e1-42a0-8850-0764e9ee8755": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EAujRb1KlDo",
+      "height": 360,
+      "kind": "link",
+      "mediaState": {
+        "actor": "7a4aac9d-1184-4882-99f6-52f42a98f18e",
+        "paused": true,
+        "time": 1343.87378,
+        "updatedAt": 1794546388689
+      },
+      "mediaType": "youtube",
+      "title": "YouTube 동영상",
+      "url": "https://www.youtube.com/watch?v=EAujRb1KlDo",
+      "width": 576,
+      "x": 834.790136,
+      "y": 660.400192
+    },
+    "6c07fcb2-3eb6-4fa6-a4f1-65bc3c389536": {
+      "embedUrl": "https://www.youtube-nocookie.com/embed/LR9H0aT1kAk",
+      "height": 360,
+      "kind": "link",
+      "mediaType": "youtube",
+      "title": "YouTube 동영상",
+      "url": "https://youtu.be/LR9H0aT1kAk?si=8H84wbh7O7ibnJV8",
+      "width": 576,
+      "x": -233.008874,
+      "y": 1344.689824
+    },
+    "db8f05dd-bf11-4811-b6c6-f1c83704377d": {
+      "filename": "img.gif",
+      "height": 300,
+      "kind": "link",
+      "mediaLoop": true,
+      "mediaState": {
+        "actor": "a3c541fe-34c9-4e24-8a51-3c6f400d2759",
+        "paused": true,
+        "time": 0.4680000000000239,
+        "updatedAt": 1794753707195
+      },
+      "mediaType": "gif",
+      "title": "img.gif",
+      "url": "/api/canvases/2132/media/adcd279e-c1c1-47c4-9930-dd8a0634f953.gif",
+      "width": 576,
+      "x": -189.199932,
+      "y": 936.801339
+    }
+  }
+}
